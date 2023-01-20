@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import HomePage from "../Page/HomePage";
+import Home from "../Page/Home";
 import Partner from "../Page/Partner";
 
 function Routing() {
@@ -8,7 +8,7 @@ function Routing() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/partner" element={<Partner />} />
         </Routes>
       </BrowserRouter>
