@@ -27,7 +27,7 @@ theme = createTheme(theme, {
     },
     primary: {
       //Green
-      main: "#48A145",
+      main: "#f05f40",
       light: "#E9F5E9",
       dark: "#3A8137",
     },
@@ -60,7 +60,7 @@ theme = createTheme(theme, {
       fontWeight: 600,
       fontSize: "6rem",
       lineHeight: "130%",
-      fontFamily: "Josefin Sans",
+      fontFamily: "Noto Sans",
       [theme.breakpoints.down("sm")]: {
         fontSize: "4rem",
       },
@@ -69,7 +69,7 @@ theme = createTheme(theme, {
       letterSpacing: "-0.6px",
       fontSize: "4.5rem",
       lineHeight: "130%",
-      fontFamily: "Josefin Sans",
+      fontFamily: "Noto Sans",
       [theme.breakpoints.down("sm")]: {
         fontSize: "3rem",
       },
@@ -81,7 +81,7 @@ theme = createTheme(theme, {
         fontSize: "2.5rem",
       },
       fontWeight: 600,
-      fontFamily: "Josefin Sans",
+      fontFamily: "Noto Sans",
       lineHeight: "130%",
     },
     h4: {
@@ -90,7 +90,7 @@ theme = createTheme(theme, {
       [theme.breakpoints.down("sm")]: {
         fontSize: " 2rem",
       },
-      fontFamily: "Josefin Sans",
+      fontFamily: "Noto Sans",
       lineHeight: "130%",
     },
     h5: {
@@ -100,7 +100,7 @@ theme = createTheme(theme, {
         fontSize: " 1.5rem",
       },
       lineHeight: "150%",
-      fontFamily: "Josefin Sans",
+      fontFamily: "Noto Sans",
     },
     h6: {
       fontSize: "1.5rem",
@@ -109,7 +109,7 @@ theme = createTheme(theme, {
       },
       lineHeight: "150%",
       fontWeight: 600,
-      fontFamily: "Josefin Sans",
+      fontFamily: "Noto Sans",
     },
     subtitle1: {
       fontSize: "1.125rem",
