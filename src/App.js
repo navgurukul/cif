@@ -1,7 +1,12 @@
 import "./App.css";
+import Routing from "./Route";
 
 function App() {
-  return <div className="App">Hello Navgurukul</div>;
+  return (
+    <>
+      <Routing />
+    </>
+  );
 }
 
 export default App;
