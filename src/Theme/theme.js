@@ -215,13 +215,13 @@ theme.components = {
     },
   },
 
-  MuiPaper: {
-    styleOverrides: {
-      root: {
-        height: "100%",
-      },
-    },
-  },
+  // MuiPaper: {
+  //   styleOverrides: {
+  //     root: {
+  //       height: "100%",
+  //     },
+  //   },
+  // },
 
   MuiMenuItem: {
     styleOverrides: {

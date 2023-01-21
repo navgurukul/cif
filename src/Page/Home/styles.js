@@ -25,6 +25,11 @@ const useStyles = makeStyles((theme) => ({
     padding: "10px 16px 10px 16px",
     // marginTop: "20px",
   },
+
+  cards:{
+    height:"100%"
+
+  },
   card: {
     height: "100%",
     display: "flex",

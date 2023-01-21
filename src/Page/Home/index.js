@@ -50,6 +50,7 @@ function Home() {
                 elevation={2}
                 sx={{
                   borderRadius: "8px",
+                  height: "100%",
                 }}>
                 <img
                   className={classes.image}
@@ -84,11 +85,10 @@ function Home() {
           <Divider color="divider" />
         </Container>
         <Typography
-        className={classes.spacing}
+          className={classes.spacing}
           variant="h5"
           align="center"
           gutterBottom>
-            
           All About CIF
         </Typography>
 
@@ -124,6 +124,7 @@ function Home() {
                 elevation={2}
                 sx={{
                   borderRadius: "8px",
+                  height: "100%",
                 }}>
                 <img
                   className={classes.image}
@@ -140,6 +141,7 @@ function Home() {
                 elevation={2}
                 sx={{
                   borderRadius: "8px",
+                  height: "100%",
                 }}>
                 <img
                   className={classes.image}
@@ -183,7 +185,11 @@ function Home() {
           <Divider color="divider" />
         </Container>
 
-        <Typography className={classes.spacing} variant="h5" align="center" gutterBottom>
+        <Typography
+          className={classes.spacing}
+          variant="h5"
+          align="center"
+          gutterBottom>
           Programme Design and Deliverables
         </Typography>
 
@@ -194,7 +200,7 @@ function Home() {
             // spacing={isActive ? 2 : 4}
           >
             <Grid item xs={12} ms={6} md={4}>
-              <Card elevation={2}>
+              <Card className={classes.cards}  elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Facilitate Learning (Teaching, Workshops, Lesson Planning) –
@@ -218,7 +224,7 @@ function Home() {
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
-              <Card elevation={2}>
+              <Card elevation={2} className={classes.cards}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Program Management (Operations, Local Partnerships,
@@ -240,7 +246,7 @@ function Home() {
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
-              <Card elevation={2}>
+              <Card elevation={2} className={classes.cards}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Special Projects – Optional ( but highly encouraged)
@@ -266,13 +272,17 @@ function Home() {
         <Container sx={{ mt: 5 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
-        <Typography className={classes.spacing} variant="h5" align="center" gutterBottom>
+        <Typography
+          className={classes.spacing}
+          variant="h5"
+          align="center"
+          gutterBottom>
           Fellow Learning
         </Typography>
         <Box className={classes.spacing}>
           <Grid container spacing={2}>
             <Grid item xs={12} ms={6} md={6}>
-              <Card elevation={2}>
+              <Card className={classes.cards} elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     The learning and development objectives
@@ -301,7 +311,7 @@ function Home() {
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={6}>
-              <Card elevation={2}>
+              <Card className={classes.cards} elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     The learning tools across the elements
@@ -349,7 +359,11 @@ function Home() {
           <Divider color="divider" />
         </Container>
         {/* last--------------------------------------------------------------------------- */}
-        <Typography className={classes.spacing} variant="h5" align="center" gutterBottom>
+        <Typography
+          className={classes.spacing}
+          variant="h5"
+          align="center"
+          gutterBottom>
           Post Programme
         </Typography>
 
@@ -360,7 +374,7 @@ function Home() {
             // spacing={isActive ? 2 : 4}
           >
             <Grid item xs={12} ms={6} md={4}>
-              <Card elevation={2}>
+              <Card className={classes.cards} elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Facilitate Learning (Teaching, Workshops, Lesson Planning) –
@@ -384,7 +398,7 @@ function Home() {
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
-              <Card elevation={2}>
+              <Card className={classes.cards} elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Program Management (Operations, Local Partnerships,
@@ -406,7 +420,7 @@ function Home() {
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
-              <Card elevation={2}>
+              <Card className={classes.cards} elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Special Projects – Optional ( but highly encouraged)
@@ -433,7 +447,11 @@ function Home() {
           <Divider color="divider" />
         </Container>
         <Container maxWidth="sm">
-          <Typography className={classes.spacing} variant="h5" align="center" gutterBottom>
+          <Typography
+            className={classes.spacing}
+            variant="h5"
+            align="center"
+            gutterBottom>
             Up For The Challenge?
           </Typography>
           <Stack className={classes.spacing} alignItems="center">
