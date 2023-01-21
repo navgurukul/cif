@@ -43,6 +43,8 @@ theme = createTheme(theme, {
       hint: "#949494",
     },
     background: {
+      // default: "#E5E5E5",
+      // paper: "#E5E5E5",
       default: "#FFFFFF",
       paper: "#FFFFFF",
     },
@@ -226,5 +228,14 @@ theme.components = {
       },
     },
   },
+  // MuiAppBar: {
+  //   styleOverrides: {
+  //     root: {
+  //       colorPrimary: {
+  //         backgroundColor: "#662E9B",
+  //       },
+  //     },
+  //   },
+  // },
 };
 export default theme;

@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import Routing from "./Route";
 import { ThemeProvider } from "@mui/material/styles";
 // import theme from "../../theme/theme";
