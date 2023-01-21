@@ -2,7 +2,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   faqContainer: {
-    // fontFamily: theme.typography.fontFamily,
+    fontFamily: theme.typography.fontFamily,
     // fontStyle: "normal",
     display: "flex",
     flexDirection: "column",
