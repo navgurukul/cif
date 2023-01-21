@@ -1,7 +1,15 @@
 import "./App.css";
+import Routing from "./Route";
+import { ThemeProvider } from "@mui/material/styles";
+// import theme from "../../theme/theme";
 
+import theme from "./Theme/theme";
 function App() {
-  return <div className="App">Hello Navgurukul</div>;
+  return (
+    <ThemeProvider theme={theme}>
+      <Routing />
+    </ThemeProvider>
+  );
 }
 
 export default App;
