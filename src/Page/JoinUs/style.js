@@ -28,24 +28,36 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column !important",
     alignItems: "center !important",
     justifyContent: "center !important",
-    padding: "16px !important",
-    width: "300px !important",
-    height: "200px !important",
+    padding: "32px !important",
+    maxWidth: "300px !important",
+    textAlign: "left !important",
   },
   NeedCardType2: {
     display: "flex !important",
     flexDirection: "column !important",
     alignItems: "center !important",
     justifyContent: "center !important",
-    padding: "16px !important",
+    padding: "32px !important",
   },
   NeedCardInRow1: {
     margin: "32px 0 !important",
     marginLeft: "0px !important",
   },
   NeedCardInRow2: {
+    marginTop: "16px !important",
+  },
+  selectionContainer: {
     display: "flex !important",
-    justifyContent: "SpacedEvenly !important",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  downSvg: {
+    margin: "32px 0 !important",
+  },
+  processTitle: {
+    fontWeight: "600 !important",
+    marginBottom: "16px !important",
   },
 }));
 
