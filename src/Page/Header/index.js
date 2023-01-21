@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import theme from "../../Theme/theme";
-// import { Link, NavLink,useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
   AppBar,
   Box,
-  Typography,
   Button,
   IconButton,
   Toolbar,
-  Container,
   ThemeProvider,
   Divider,
   List,
@@ -17,22 +15,19 @@ import {
   ListItemButton,
   ListItemText,
   Drawer,
-  Link,
 } from "@mui/material";
+import Logo from "../../assets/header-logo.svg";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { breakpoints } from "../../Theme/constant";
+import useStyles from "./styles";
 
-// interface Props {
-//     /**
-//      * Injected by the documentation to work in an iframe.
-//      * You won't need it on your project.
-//      */
-//     window?: () => Window;
-// }
-
-// function Header(props: Props) {
 function Header() {
-  // const { window } = props;
-  //   const location = useLocation();
+  const classes = useStyles();
+  const location = useLocation();
+  const isActive = useMediaQuery("(max-width:" + breakpoints.values.sm + "px)");
+
   const [mobileOpen, setMobileOpen] = useState(false);
+
   const drawerWidth = 240;
   const navItems = [
     { name: "Home", path: "/" },
@@ -47,86 +42,83 @@ function Header() {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
-      </Typography>
+      <Box sx={{ my: 1 }}>
+        <img src={Logo} loading="lazy" alt="logo" />
+      </Box>
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item.name} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item.name} />
-            </ListItemButton>
-          </ListItem>
+          <Link to={item.path} className={classes.link}>
+            <ListItem key={item.name} disablePadding>
+              <ListItemButton
+                sx={{
+                  textAlign: "center",
+                  color: item.path === location.pathname && "#7743DB",
+                }}
+              >
+                <ListItemText primary={item.name} />
+              </ListItemButton>
+            </ListItem>
+          </Link>
         ))}
       </List>
     </Box>
   );
 
-  // const container = window !== undefined ? () => window().document.body : undefined;
-
   return (
     <ThemeProvider theme={theme}>
-      <AppBar position="sticky" color="background">
+      <AppBar position="sticky" color="background" elevation={0}>
+        <hr />
+        <Box
+          className={isActive ? classes.mobileDivider : classes.desktopDivider}
+        >
+          <Divider color="divider" />
+        </Box>
         <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
+            sx={{ ml: "12px", display: { sm: "none" } }}
           >
-            <MenuIcon />
+            <MenuIcon sx={{ fontSize: "30px" }} />
           </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-          >
-            MUI
-            {/* <Link to="/partner">MUI</Link> */}
-            {/* <NavLink to="/" end>
-              MUI
-            </NavLink> */}
-          </Typography>
-          {/* <Box sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
-            <img
-              src={require("../../assets/logo.svg")}
-              loading="lazy"
-              alt="logo"
-            />
-          </Box> */}
+          <Box sx={{ flexGrow: 1, mx: "10px" }}>
+            <img src={Logo} loading="lazy" alt="logo" />
+          </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              //   <Link to={item.path}>
-              //   <Link href={item.path}>
-              <Button
-                key={item.name}
-                color="dark"
-                sx={{
-                  pl: "16px",
-                  pr: "16px",
-                  mr: "8px",
-                  ml: "8px",
-                  //   color: item.path !== location.pathname && "#2E2E2E",
-                }}
-              >
-                {console.log("item.path", item.path)}
-                {item.name}
-              </Button>
-              //   </Link>
+              <Link to={item.path} className={classes.link}>
+                <Button
+                  key={item.name}
+                  color="dark"
+                  sx={{
+                    px: "16px",
+                    py: "8px",
+                    color: item.path === location.pathname && "#7743DB",
+                  }}
+                >
+                  {console.log("item.path", item.path)}
+                  {item.name}
+                </Button>
+              </Link>
             ))}
           </Box>
         </Toolbar>
+        <Box
+          className={isActive ? classes.mobileDivider : classes.desktopDivider}
+        >
+          <Divider color="divider" />
+        </Box>
       </AppBar>
       <Box component="nav">
         <Drawer
-          //   container={container}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true,
           }}
           sx={{
             display: { xs: "block", sm: "none" },
