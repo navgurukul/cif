@@ -1,0 +1,194 @@
+{
+  "Faq": [
+    {
+      "faqTitle": "Fellowship",
+      "content": [
+        {
+          "question": "What is the purpose of the Code India Fellowship?",
+          "answer": "The purpose of the Code India Fellowship is to provide a platform for students to learn and practice the skills required to become a software developer. The program is designed to help students build a portfolio of projects and to help them get a job as a software developer.",
+          "bulletPoints": [],
+          "turnOn": true
+        },
+        {
+          "question": "What will a Code India Fellow do?",
+          "answer": "The fellow will facilitate the learning of coding/programming in the classroom (Teaching, Workshops, Lesson Planning), which would be approximately 70% of their time, and manage the program at the school level (Operations, Local Partnerships, Stakeholder Management) which would be approximately 30% of their time. The fellow can also take up special projects benefiting the program .",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "What is the duration of the fellowship?",
+          "answer": "1 Year",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "What is the stipend for the Fellows?",
+          "answer": "The fellows will receive a stipend of INR 25,000 per month for the duration of the fellowship.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "What is the curriculum to be used at CIF?",
+          "answer": "The curriculum for the students will be targeted at the job market and will cover the following topics:",
+          "bulletPoints": [
+            "Programming Language(s) – Python, Java",
+            "Algorithms, Data Structures, Problem-Solving",
+            "Other Digital Skills ",
+            "Communicative English"
+          ],
+          "turnOn": false
+        },
+        {
+          "question": "What special/additional projects can a fellow work on during the fellowship?",
+          "answer": "The curriculum for the students will be targeted at the job market and will cover the following topics:",
+          "bulletPoints": [
+            "Pilot an idea for improving their Center (across Operations or Learning)",
+            "Design and implement a project impacting the whole program (e.g., a data management system)"
+          ],
+          "turnOn": true
+        }
+      ]
+    },
+    {
+      "faqTitle": "Eligibility",
+      "content": [
+        {
+          "question": "What is the eligibility for being a Code India Fellow?",
+          "answer": "This fellowship is for you if you,",
+          "bulletPoints": [
+            "Have a tech degree (Computer Science, Information Technology); apply if you aren’t a tech graduate but are good at tech",
+            "Belief in the Code India Fellowship mission.",
+            "Find the idea of utilizing a year facilitating learning for young women and girls in a low-income rural school exciting."
+          ],
+          "turnOn": false
+        },
+        {
+          "question": "I am not a tech graduate. Can I still apply for the fellowship?",
+          "answer": "Yes. Apply if you are good at tech and are excited about the idea or the mission.",
+          "bulletPoints": [],
+          "turnOn": true
+        },
+        {
+          "question": "I am working full-time and would like to continue working on my job. Can I be a part of CIF?",
+          "answer": "Unfortunately, CIF requires your total commitment for a year; therefore, you wouldn’t be able to be a part of CIF while employed elsewhere.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Can I be a part of CIF for less than the advertised 1-year?",
+          "answer": "Unfortunately, CIF requires your total commitment for a year; therefore, you wouldn’t be able to be a part of CIF if you cannot commit for a year. But if you are unable to, keep checking us out at NavGurukul. We have an internship, and we will be launching other programs where you can support the cause.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Is it required for the applicant to be an Indian citizen?",
+          "answer": "Only Indian citizens, OCI card holders, and citizens of Nepal & Bhutan can apply for the fellowship.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Are there any other factors that can disqualify my application?",
+          "answer": "Your application will be rejected if you have been convicted of a serious offense or otherwise pose a risk to children. Disqualification is required to ensure a safe and secure environment for the students in the schools. A local reference check may be conducted to ensure compliance.",
+          "bulletPoints": [],
+          "turnOn": false
+        }
+      ]
+    },
+    {
+      "faqTitle": "Selection Process & Application",
+      "content": [
+        {
+          "question": "What is the selection process for the Fellowship?",
+          "answer": "CIF will have a 4-step selection process consisting of the following:",
+          "bulletPoints": [
+            "Application Form ",
+            "Technical Round - test score from a coding competition on our partner community",
+            "Teaching round - 15-minute video recording of you explaining any concept or live classroom session ",
+            "Interview - Panel interview"
+          ],
+          "turnOn": false
+        },
+        {
+          "question": "Why does the application require my CodeChef or Codeforces ID & rating?",
+          "answer": "We require Code India Fellows to be strong technically. We will use your CodeChef or Codeforces ID and rating to evaluate your technical skills.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "When is the last date for applying to the fellowship?",
+          "answer": "20th March 2023. But apply at the earliest. Even we do not like last minute rush & panic.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Whom should I contact if I need clarification about my application?",
+          "answer": "In case of any clarification on the application, please contact the CIF Recruiter & Manager at niyas@navgurukul.org and hr-ops@navgurukul.org.",
+          "bulletPoints": [],
+          "turnOn": true
+        }
+      ]
+    },
+    {
+      "faqTitle": "Logistics and Programme Management",
+      "content": [
+        {
+          "question": "Where would a Code India Fellow be placed?",
+          "answer": "The Code India Fellow will be placed in a rural low-income government school (Kasturba Gandhi Balika Vidyalaya) in Uttar Pradesh.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Can I choose my placement location?",
+          "answer": "Even though we will consider the applicant’s choices, we wouldn’t be able to guarantee a location of your choice for the fellowship.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Would a Code India Fellow be provided with accommodation?",
+          "answer": "No. Fellows wouldn’t be provided with accommodation.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Would CIF involve a lot of travel?",
+          "answer": "The fellows are expected to travel between their fellowship location(s),  their training location, and any location that may be required for the smooth running of the fellowship. Estimated travel: 1-2 times per quarter. All official travel expenses will be reimbursed as per organization policies.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Can I be a part of CIF online?",
+          "answer": "No. Code India Fellowship is a fully offline program. But if you cannot be part of an offline program, keep checking us out at NavGurukul. We will be launching programs where you can support the cause online.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "What if I wanted to discontinue being a part of CIF?",
+          "answer": "The fellow can discontinue the fellowship after serving the notice period of one month except during the probationary period (first two months), where the notice period is not applicable.",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "Would a fellow be asked to leave the fellowship mid-way?",
+          "answer": "A fellow may be asked to leave the fellowship in cases of serious misconduct, wilful negligence, and consistent non-delivery of fellowship objectives/lack of performance.  In cases of non-delivery of fellowship objectives/lack of performance,  an opportunity for improvement and handholding support will be provided.",
+          "bulletPoints": [],
+          "turnOn": false
+        }
+      ]
+    },
+    {
+      "faqTitle": "Post Fellowship",
+      "content": [
+        {
+          "question": "What are the post-fellowship opportunities for a Code India Fellow?",
+          "answer": "NavGurukul will support the fellows as part of their post-fellowship journey across",
+          "bulletPoints": [
+            "Placements: Streamlined process for applying to impact organizations / social enterprises",
+            "Start-Up support: Support for the establishment of impact organizations / social enterprises by accessing NavGurukul’s network & mentorship",
+            "Alumni Network: Be part of a more extensive network of like-minded individuals who can be potential colleagues, co-founders, or support networks."
+          ],
+          "turnOn": false
+        }
+      ]
+    }
+  ]
+}
