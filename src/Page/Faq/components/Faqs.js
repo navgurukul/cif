@@ -24,13 +24,15 @@ function IndFaqs({ question, divider }) {
         <>
           {" "}
           <Typography className={classes.faqAns}>{question.answer}</Typography>
-          {question.bulletPoints.map((points, index) => {
-            return (
-              <Typography className={classes.bulletPoints}>
-                ● {points}
-              </Typography>
-            );
-          })}
+          <ul>
+            {question.bulletPoints.map((points, index) => {
+              return (
+                <li>
+                  <Typography>{points}</Typography>
+                </li>
+              );
+            })}
+          </ul>
         </>
       )}
       {divider && <Divider className={classes.divider} />}
