@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "../Page/Home";
 import Partner from "../Page/Partner";
+import Faq from "../Page/Faq/Faq";
+import JoinUs from "../Page/JoinUs/JoinUs";
 
 function Routing() {
   return (
@@ -10,6 +12,8 @@ function Routing() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/partner" element={<Partner />} />
+          <Route exact path="/faqs" element={<Faq />} />
+          <Route exact path="/join" element={<JoinUs />} />
         </Routes>
       </BrowserRouter>
     </>

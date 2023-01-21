@@ -27,7 +27,7 @@ theme = createTheme(theme, {
     },
     primary: {
       //Green
-      main: "#f05f40",
+      main: "#7743DB",
       light: "#E9F5E9",
       dark: "#3A8137",
     },
@@ -43,14 +43,14 @@ theme = createTheme(theme, {
       hint: "#949494",
     },
     background: {
-      default: "#FFFFFF",
+      default: "#E5E5E5",
       paper: "#FFFFFF",
     },
     dark: {
       main: "#2E2E2E",
       contrastText: "#FFFFFF",
     },
-    divider: "#DEDEDE",
+    divider: "#2E2E2E",
   },
   typography: {
     fontFamily: "Noto Sans",
@@ -67,7 +67,7 @@ theme = createTheme(theme, {
     },
     h2: {
       letterSpacing: "-0.6px",
-      fontSize: "4.5rem",
+      fontSize: "4.2rem",
       lineHeight: "130%",
       fontFamily: "Noto Sans",
       [theme.breakpoints.down("sm")]: {
@@ -214,6 +214,15 @@ theme.components = {
       },
     },
   },
+
+  MuiPaper: {
+    styleOverrides: {
+      root: {
+        height: "100%",
+      },
+    },
+  },
+
   MuiMenuItem: {
     styleOverrides: {
       root: {
