@@ -67,7 +67,7 @@ theme = createTheme(theme, {
     },
     h2: {
       letterSpacing: "-0.6px",
-      fontSize: "4.5rem",
+      fontSize: "4.2rem",
       lineHeight: "130%",
       fontFamily: "Noto Sans",
       [theme.breakpoints.down("sm")]: {
