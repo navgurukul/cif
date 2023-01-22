@@ -31,9 +31,9 @@ function Header() {
   const drawerWidth = 240;
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Join Us", path: "/join" },
+    { name: "Join Us", path: "/join-us" },
     { name: "Partners", path: "/partner" },
-    { name: "FAQs", path: "/faqs" },
+    { name: "FAQs", path: "/faq" },
   ];
 
   const handleDrawerToggle = () => {
