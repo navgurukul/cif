@@ -15,14 +15,13 @@ const useStyles = makeStyles((theme) => ({
     border: "1px dashed #7743DB",
     borderRadius: "8px",
     background: "#FFFFFF",
-    padding: !isActive && "32px",
   },
   desktopCard: {
     width: "590px",
     border: "1px dashed #7743DB",
     borderRadius: "8px",
     background: "#FFFFFF",
-    padding: !isActive && "32px",
+    padding: "32px",
   },
 }));
 

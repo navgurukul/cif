@@ -45,7 +45,7 @@
             "Pilot an idea for improving their Center (across Operations or Learning)",
             "Design and implement a project impacting the whole program (e.g., a data management system)"
           ],
-          "turnOn": true
+          "turnOn": false
         }
       ]
     },
@@ -60,13 +60,13 @@
             "Belief in the Code India Fellowship mission.",
             "Find the idea of utilizing a year facilitating learning for young women and girls in a low-income rural school exciting."
           ],
-          "turnOn": false
+          "turnOn": true
         },
         {
           "question": "I am not a tech graduate. Can I still apply for the fellowship?",
           "answer": "Yes. Apply if you are good at tech and are excited about the idea or the mission.",
           "bulletPoints": [],
-          "turnOn": true
+          "turnOn": false
         },
         {
           "question": "I am working full-time and would like to continue working on my job. Can I be a part of CIF?",
@@ -106,7 +106,7 @@
             "Teaching round - 15-minute video recording of you explaining any concept or live classroom session ",
             "Interview - Panel interview"
           ],
-          "turnOn": false
+          "turnOn": true
         },
         {
           "question": "Why does the application require my CodeChef or Codeforces ID & rating?",
@@ -124,7 +124,7 @@
           "question": "Whom should I contact if I need clarification about my application?",
           "answer": "In case of any clarification on the application, please contact the CIF Recruiter & Manager at niyas@navgurukul.org and hr-ops@navgurukul.org.",
           "bulletPoints": [],
-          "turnOn": true
+          "turnOn": false
         }
       ]
     },
@@ -135,7 +135,7 @@
           "question": "Where would a Code India Fellow be placed?",
           "answer": "The Code India Fellow will be placed in a rural low-income government school (Kasturba Gandhi Balika Vidyalaya) in Uttar Pradesh.",
           "bulletPoints": [],
-          "turnOn": false
+          "turnOn": true
         },
         {
           "question": "Can I choose my placement location?",
@@ -186,7 +186,7 @@
             "Start-Up support: Support for the establishment of impact organizations / social enterprises by accessing NavGurukul’s network & mentorship",
             "Alumni Network: Be part of a more extensive network of like-minded individuals who can be potential colleagues, co-founders, or support networks."
           ],
-          "turnOn": false
+          "turnOn": true
         }
       ]
     }
