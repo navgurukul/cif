@@ -7,14 +7,16 @@ function IndFaqs({ question, divider }) {
 
   return (
     <>
-      <Typography className={classes.faqQues}>
+      <Typography
+        style={{
+          cursor: "pointer",
+        }}
+        onClick={() => setOpen(!open)}
+        className={classes.faqQues}
+      >
         {question.question}
 
         <img
-          onClick={() => setOpen(!open)}
-          style={{
-            cursor: "pointer",
-          }}
           src={
             open ? "/assets/images/collapse.svg" : "/assets/images/expand.svg"
           }
