@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   NeedCardType1: {
+    background: "#FFFFFF !important",
     display: "flex !important",
     flexDirection: "column !important",
     alignItems: "center !important",
@@ -33,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left !important",
   },
   NeedCardType2: {
+    background: "#FFFFFF !important",
     display: "flex !important",
     flexDirection: "column !important",
     alignItems: "center !important",
