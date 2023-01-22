@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
     "font-weight": 600,
     "text-align": "center",
     "font-size": theme.typography.h2.fontSize,
+    [theme.breakpoints.down("sm")]: {
+      "font-size": theme.typography.h5.fontSize,
+    },
   },
   faqsContainer: {
     display: "flex",

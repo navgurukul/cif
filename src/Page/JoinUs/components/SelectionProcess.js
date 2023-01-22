@@ -23,7 +23,7 @@ function SelectionProcess() {
           <Typography className={classes.processTitle}>
             Technical Round
           </Typography>
-          <Typography>
+          <Typography align="center">
             Test score from a coding competition on our partner community
           </Typography>
           <img src="/assets/images/down.svg" className={classes.downSvg} />
@@ -31,7 +31,9 @@ function SelectionProcess() {
           <Typography className={classes.processTitle}>
             Teaching Round
           </Typography>
-          <Typography>Recorded or Live Teaching Session(s)</Typography>
+          <Typography align="center">
+            Recorded or Live Teaching Session(s)
+          </Typography>
           <img src="/assets/images/down.svg" className={classes.downSvg} />
           <Typography className={classes.processTitle}>
             Panel Interview(s)

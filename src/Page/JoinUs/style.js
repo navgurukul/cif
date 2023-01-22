@@ -53,6 +53,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    
   },
   downSvg: {
     margin: "32px 0 !important",

@@ -8,7 +8,11 @@ function JoinUs() {
   const classes = useStyles();
   return (
     <Container className={classes.joinContainer} maxWidth="xl">
-      <Typography className={classes.joinContainer__title} variant="h3">
+      <Typography
+        align="center"
+        className={classes.joinContainer__title}
+        variant="h3"
+      >
         Up For The Challenge?
       </Typography>
       <WhatWeNeed />
