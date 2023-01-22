@@ -18,15 +18,15 @@ theme = createTheme(theme, {
   palette: {
     mode: "light",
     default: {
-      // main: "#FFFFFF",
+      main: "#FFFFFF",
       // contrastText: "#000000",
       light: "#0066FF",
-      main: "#fff",
+      // main: "#fff",
       // dark: will be calculated from palette.secondary.main,
       contrastText: "#FFCC00",
     },
     primary: {
-      //Green
+      //Lavender
       main: "#7743DB",
       light: "#E9F5E9",
       dark: "#3A8137",
@@ -44,7 +44,9 @@ theme = createTheme(theme, {
     },
     background: {
       default: "#E5E5E5",
-      paper: "#FFFFFF",
+      paper: "#E5E5E5",
+      // default: "#FFFFFF",
+      // paper: "#FFFFFF",
     },
     dark: {
       main: "#2E2E2E",
@@ -121,13 +123,14 @@ theme = createTheme(theme, {
       fontWeight: 700,
     },
     subtitle2: {
-      fontSize: "0.875rem",
+      // fontSize: "0.875rem",
+      fontSize: "14px",
       fontFamily: "Noto Sans",
       [theme.breakpoints.down("sm")]: {
         fontSize: "0.875rem",
       },
-      fontWeight: 700,
-      lineHeight: "170%",
+      fontWeight: 600,
+      lineHeight: "23.8px",
     },
     body1: {
       fontSize: "1.125rem",
@@ -235,5 +238,14 @@ theme.components = {
       },
     },
   },
+  // MuiAppBar: {
+  //   styleOverrides: {
+  //     root: {
+  //       colorPrimary: {
+  //         backgroundColor: "#662E9B",
+  //       },
+  //     },
+  //   },
+  // },
 };
 export default theme;
