@@ -18,7 +18,7 @@ function Home() {
   const classes = useStyles();
   return (
     <div>
-      <Container maxWidth="lg">
+      <Container className={classes.container} maxWidth="lg">
         <Container maxWidth="md">
           <Stack className={classes.heading} alignItems="center">
             <Typography variant="h3" align="center" gutterBottom>
@@ -30,11 +30,7 @@ function Home() {
         <Container maxWidth="md">
           <Stack className={classes.pra} alignItems="center">
             {" "}
-            <Typography
-              // className={classes.pra}
-              variant="body1"
-              align="center"
-              gutterBottom>
+            <Typography variant="body1" align="center" gutterBottom>
               For girls in their final years of schooling in India’s heartland,
               learning coding can be the difference between a life where choices
               are thrust upon them and an opportunity to make choices, achieve
@@ -54,7 +50,7 @@ function Home() {
                 }}>
                 <img
                   className={classes.image}
-                  src={require("../../assets/images2.svg").default}
+                  src={require("../../assets/image2.png")}
                 />
               </Card>
             </Grid>
@@ -85,6 +81,7 @@ function Home() {
           <Divider color="divider" />
         </Container>
         <Typography
+          sx={{ mt: 5 }}
           className={classes.spacing}
           variant="h5"
           align="center"
@@ -128,7 +125,7 @@ function Home() {
                 }}>
                 <img
                   className={classes.image}
-                  src={require("../../assets/images.svg").default}
+                  src={require("../../assets/image.png")}
                 />
               </Card>
             </Grid>
@@ -145,7 +142,7 @@ function Home() {
                 }}>
                 <img
                   className={classes.image}
-                  src={require("../../assets/images1.svg").default}
+                  src={require("../../assets/image1.png")}
                 />
               </Card>
             </Grid>
@@ -186,6 +183,7 @@ function Home() {
         </Container>
 
         <Typography
+          sx={{ mt: 5 }}
           className={classes.spacing}
           variant="h5"
           align="center"
@@ -200,7 +198,7 @@ function Home() {
             // spacing={isActive ? 2 : 4}
           >
             <Grid item xs={12} ms={6} md={4}>
-              <Card className={classes.cards}  elevation={2}>
+              <Card className={classes.cards} elevation={2}>
                 <CardContent>
                   <Typography variant="subtitle1">
                     Facilitate Learning (Teaching, Workshops, Lesson Planning) –
@@ -273,6 +271,7 @@ function Home() {
           <Divider color="divider" />
         </Container>
         <Typography
+          sx={{ mt: 5 }}
           className={classes.spacing}
           variant="h5"
           align="center"
@@ -360,6 +359,7 @@ function Home() {
         </Container>
         {/* last--------------------------------------------------------------------------- */}
         <Typography
+          sx={{ mt: 5 }}
           className={classes.spacing}
           variant="h5"
           align="center"
@@ -448,6 +448,7 @@ function Home() {
         </Container>
         <Container maxWidth="sm">
           <Typography
+            sx={{ mt: 5 }}
             className={classes.spacing}
             variant="h5"
             align="center"
@@ -455,7 +456,11 @@ function Home() {
             Up For The Challenge?
           </Typography>
           <Stack className={classes.spacing} alignItems="center">
-            <Button sx={{ width: "352px" }} variant="contained" color="primary">
+            <Button
+              sx={{ width: "352px", "&:hover": { backgroundColor: "#7743DB" } }}
+              variant="contained"
+              // color="primary"
+            >
               Apply Now
             </Button>
           </Stack>

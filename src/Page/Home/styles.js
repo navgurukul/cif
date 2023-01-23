@@ -1,9 +1,9 @@
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
-  // container: {
-  //   marginTop: "50px",
-  // },
+  container: {
+    marginTop: "60px",
+  },
   pra: {
     margin: "7px",
   },
@@ -26,9 +26,8 @@ const useStyles = makeStyles((theme) => ({
     // marginTop: "20px",
   },
 
-  cards:{
-    height:"100%"
-
+  cards: {
+    height: "100%",
   },
   card: {
     height: "100%",

@@ -28,8 +28,8 @@ theme = createTheme(theme, {
     primary: {
       //Lavender
       main: "#7743DB",
-      light: "#E9F5E9",
-      dark: "#3A8137",
+      light: "#794dcd",
+      // dark: "#3A8137",
     },
 
     grey: {
@@ -209,15 +209,14 @@ theme.components = {
   //       root: { width: 64 },
   //     },
   //   },
-  MuiButton: {
-    styleOverrides: {
-      root: {
-        borderRadius: "8px",
-        height: "48px",
-      },
-    },
-  },
-
+  // MuiButton: {
+  //   styleOverrides: {
+  //     root: {
+  //       borderRadius: "8px",
+  //       height: "48px",
+  //     },
+  //   },
+  // },
   // MuiPaper: {
   //   styleOverrides: {
   //     root: {
@@ -225,24 +224,13 @@ theme.components = {
   //     },
   //   },
   // },
-
-  MuiMenuItem: {
-    styleOverrides: {
-      root: {
-        height: "48px",
-        // margin: "10px 16px 10px 16px",
-        "&:hover": {
-          backgroundColor: "#E9F5E9",
-          borderRadius: "8px",
-        },
-      },
-    },
-  },
-  // MuiAppBar: {
+  // MuiButtonBase: {
   //   styleOverrides: {
   //     root: {
-  //       colorPrimary: {
-  //         backgroundColor: "#662E9B",
+  //       // backgroundColor: "pink !important",
+  //       // margin: "10px 16px 10px 16px",
+  //       "&:hover": {
+  //         backgroundColor: "none !important",
   //       },
   //     },
   //   },
