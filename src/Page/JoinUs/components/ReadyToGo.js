@@ -21,22 +21,18 @@ function ReadyToGo() {
           justifyContent: "center",
           marginBottom: "2rem",
         }}
-        maxWidth="sm"
-      >
+        maxWidth="sm">
         <Typography
           style={{
             margin: "1rem 0",
           }}
-          variant="h5"
-        >
+          variant="h5">
           Ready to Go?
         </Typography>
+      
         <Button
+          sx={{ width: "352px", "&:hover": { backgroundColor: "#7743DB" } }}
           variant="contained"
-          color="secondary"
-          style={{
-            width: "352px",
-          }}
         >
           Apply Now
         </Button>
@@ -48,8 +44,7 @@ function ReadyToGo() {
           style={{
             textAlign: "center",
           }}
-          variant="body2"
-        >
+          variant="body2">
           In case of any clarification on the application, please contact the
           CIF Recruiter & Manager at{" "}
           <span style={{ color: "#7743DB", fontWeight: 600 }}>

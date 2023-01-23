@@ -18,40 +18,33 @@ function Partner() {
   const classes = useStyles();
 
   return (
-    <Container maxWidth="xl" sx={{ mb: "64px" }}>
+    <Container maxWidth="lg" sx={{ mb: "64px" }}>
       <Typography
         variant="h3"
         color="text.primary"
         align="center"
-        // className={classes.heading}
         sx={{
           display: "flex",
           justifyContent: "center",
           mt: "81px",
           mb: "64px",
-        }}
-      >
+        }}>
         Created by Industry Leaders
       </Typography>
-      <Grid container spacing={1}>
+      <Grid container spacing={2}>
         <Grid item xs={12} ms={6} md={6} sx={{ mb: "16px" }}>
           <Box
             sx={{
-              // background: "red",
               display: "flex",
               justifyContent: "center",
-            }}
-          >
+            }}>
             <Card
-              className={isActive ? classes.mobileCard : classes.desktopCard}
-              // sx={{
-              //   width: isActive ? "300px" : "590px",
-              //   border: "1px dashed #7743DB",
-              //   borderRadius: "8px",
-              //   background: "#FFFFFF",
-              //   padding: !isActive && "32px",
-              // }}
-            >
+              // className={isActive ? classes.mobileCard : classes.desktopCard}
+              sx={{
+                border: "1px dashed #7743DB",
+                borderRadius: "8px",
+                background: "#FFFFFF",
+              }}>
               <CardContent>
                 <img
                   src={require("../../assets/niti-aayog.svg").default}
@@ -84,23 +77,17 @@ function Partner() {
           </Box>
           <Box
             sx={{
-              // background: "pink",
               display: "flex",
               justifyContent: "center",
-              marginTop: "32px",
-            }}
-          >
+              marginTop: "17px",
+            }}>
             <Card
               sx={{
-                // maxWidth: 590,
-                width: isActive ? "300px" : "590px",
-                // height: "auto",
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 padding: !isActive && "32px",
-              }}
-            >
+              }}>
               <CardContent>
                 <img
                   src={require("../../assets/navgurukul.svg").default}
@@ -135,22 +122,16 @@ function Partner() {
         <Grid item xs={12} ms={6} md={6} sx={{ mb: "16px" }}>
           <Box
             sx={{
-              // background: "yellow",
               display: "flex",
               justifyContent: "center",
-            }}
-          >
+            }}>
             <Card
               sx={{
-                // maxWidth: 590,
-                width: isActive ? "300px" : "590px",
-                // height: "auto",
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 padding: !isActive && "32px",
-              }}
-            >
+              }}>
               <CardContent>
                 <img
                   src={require("../../assets/amazon.svg").default}
