@@ -3,9 +3,7 @@ import {
   Grid,
   Box,
   Container,
-  List,
   Typography,
-  Divider,
   Card,
   CardContent,
 } from "@mui/material";
@@ -28,7 +26,8 @@ function Partner() {
           justifyContent: "center",
           mt: "81px",
           mb: "64px",
-        }}>
+        }}
+      >
         Created by Industry Leaders
       </Typography>
       <Grid container spacing={2}>
@@ -37,14 +36,16 @@ function Partner() {
             sx={{
               display: "flex",
               justifyContent: "center",
-            }}>
+            }}
+          >
             <Card
-              // className={isActive ? classes.mobileCard : classes.desktopCard}
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
-              }}>
+                padding: !isActive && "32px",
+              }}
+            >
               <CardContent>
                 <img
                   src={require("../../assets/niti-aayog.svg").default}
@@ -78,14 +79,16 @@ function Partner() {
               display: "flex",
               justifyContent: "center",
               marginTop: "17px",
-            }}>
+            }}
+          >
             <Card
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 padding: !isActive && "32px",
-              }}>
+              }}
+            >
               <CardContent>
                 <img
                   src={require("../../assets/navgurukul.svg").default}
@@ -131,14 +134,16 @@ function Partner() {
             sx={{
               display: "flex",
               justifyContent: "center",
-            }}>
+            }}
+          >
             <Card
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 padding: !isActive && "32px",
-              }}>
+              }}
+            >
               <CardContent>
                 <img
                   src={require("../../assets/amazon.svg").default}
