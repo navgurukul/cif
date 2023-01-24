@@ -60,7 +60,7 @@
             "Belief in the Code India Fellowship mission.",
             "Find the idea of utilizing a year facilitating learning for young women and girls in a low-income rural school exciting."
           ],
-          "turnOn": true
+          "turnOn": false
         },
         {
           "question": "I am not a tech graduate. Can I still apply for the fellowship?",
@@ -106,7 +106,7 @@
             "Teaching round - 15-minute video recording of you explaining any concept or live classroom session ",
             "Interview - Panel interview"
           ],
-          "turnOn": true
+          "turnOn": false
         },
         {
           "question": "Why does the application require my CodeChef or Codeforces ID & rating?",
@@ -135,7 +135,7 @@
           "question": "Where would a Code India Fellow be placed?",
           "answer": "The Code India Fellow will be placed in a rural low-income government school (Kasturba Gandhi Balika Vidyalaya) in Uttar Pradesh.",
           "bulletPoints": [],
-          "turnOn": true
+          "turnOn": false
         },
         {
           "question": "Can I choose my placement location?",
@@ -186,7 +186,7 @@
             "Start-Up support: Support for the establishment of impact organizations / social enterprises by accessing NavGurukul’s network & mentorship",
             "Alumni Network: Be part of a more extensive network of like-minded individuals who can be potential colleagues, co-founders, or support networks."
           ],
-          "turnOn": true
+          "turnOn": false
         }
       ]
     }
