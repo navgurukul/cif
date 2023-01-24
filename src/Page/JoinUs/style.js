@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "32px !important",
     maxWidth: "300px !important",
     textAlign: "left !important",
+    minHeight: "80px !important",
   },
   NeedCardType2: {
     background: "#FFFFFF !important",
@@ -53,7 +54,6 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    
   },
   downSvg: {
     margin: "32px 0 !important",

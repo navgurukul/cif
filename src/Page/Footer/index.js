@@ -12,7 +12,6 @@ function Footer() {
   return (
     <Box sx={{ width: "100%" }}>
       <Stack className={classes.bottomRow}>
-        {/* <Stack className={classes.bottomRow} sx={{ width: "96.5%" }}> */}
         <img src={Logo} loading="lazy" alt="logo" className={classes.image} />
         <Typography
           variant="body2"
@@ -22,9 +21,6 @@ function Footer() {
         >
           An Initiative by NavGurukul Foundation for Social Welfare
         </Typography>
-        {/* <Typography variant="subtitle2" color="primary">
-          hr-ops@navgurukul.org
-        </Typography> */}
       </Stack>
     </Box>
   );

@@ -43,8 +43,8 @@ theme = createTheme(theme, {
       hint: "#949494",
     },
     background: {
-      default: "#E5E5E5",
-      paper: "#E5E5E5",
+      default: "#FEFFF8",
+      paper: "#FEFFF8",
       // default: "#FFFFFF",
       // paper: "#FFFFFF",
     },

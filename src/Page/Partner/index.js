@@ -3,9 +3,7 @@ import {
   Grid,
   Box,
   Container,
-  List,
   Typography,
-  Divider,
   Card,
   CardContent,
 } from "@mui/material";
@@ -41,7 +39,6 @@ function Partner() {
             }}
           >
             <Card
-              // className={isActive ? classes.mobileCard : classes.desktopCard}
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
@@ -56,9 +53,7 @@ function Partner() {
                   alt="logo"
                   className={classes.image}
                 />
-                <Typography variant="subtitle1" sx={{ mb: "16px" }}>
-                  NITI AAYOG
-                </Typography>
+
                 <Typography variant="body1" sx={{ mb: "16px" }}>
                   NITI Aayog is the Government of India’s apex public policy
                   think tank. It also functions as a state-of-the-art resource
@@ -101,9 +96,7 @@ function Partner() {
                   alt="logo"
                   className={classes.image}
                 />
-                <Typography variant="subtitle1" sx={{ mb: "16px" }}>
-                  NAVGURUKUL
-                </Typography>
+
                 <Typography variant="body1" sx={{ mb: "16px" }}>
                   NavGurukul is a not-for-profit founded in 2016 and is on a
                   mission to create access to aspirational careers for students
@@ -158,9 +151,7 @@ function Partner() {
                   alt="logo"
                   className={classes.image}
                 />
-                <Typography variant="subtitle1" sx={{ mb: "16px" }}>
-                  AMAZON
-                </Typography>
+
                 <Typography variant="body1" sx={{ mb: "16px" }}>
                   Amazon is one of the most recognizable brands in the world and
                   is a technology company with a presence across e-commerce,

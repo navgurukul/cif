@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import theme from "../../Theme/theme";
 import { Link, useLocation } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
@@ -8,7 +7,6 @@ import {
   Button,
   IconButton,
   Toolbar,
-  ThemeProvider,
   Divider,
   List,
   ListItem,
