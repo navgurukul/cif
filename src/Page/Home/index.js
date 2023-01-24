@@ -13,6 +13,7 @@ import {
 import Divider from "@mui/material/Divider";
 
 import useStyles from "./styles";
+import ReadyToGo from "../JoinUs/components/ReadyToGo";
 
 function Home() {
   const classes = useStyles();
@@ -446,25 +447,7 @@ function Home() {
         <Container sx={{ mt: 5 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
-        <Container maxWidth="sm">
-          <Typography
-            sx={{ mt: 5 }}
-            className={classes.spacing}
-            variant="h5"
-            align="center"
-            gutterBottom>
-            Up For The Challenge?
-          </Typography>
-          <Stack className={classes.spacing} alignItems="center">
-            <Button
-              sx={{ width: "352px", "&:hover": { backgroundColor: "#7743DB" } }}
-              variant="contained"
-              // color="primary"
-            >
-              Apply Now
-            </Button>
-          </Stack>
-        </Container>
+        <ReadyToGo />
       </Container>
     </div>
   );
