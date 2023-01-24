@@ -2,7 +2,6 @@ import React from "react";
 import {
   Container,
   Typography,
-  CardContent,
   Card,
   Grid,
   Box,
@@ -76,7 +75,7 @@ function Home() {
           </Grid>
         </Box>
 
-        <Container sx={{ mt: 5 }} maxWidth="lg">
+        <Container sx={{ mt: 6 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
         <Typography
@@ -177,7 +176,7 @@ function Home() {
             </Grid>
           </Grid>
         </Container>
-        <Container sx={{ mt: 5 }} maxWidth="lg">
+        <Container sx={{ mt: 6 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
 
@@ -190,82 +189,70 @@ function Home() {
           Programme Design and Deliverables
         </Typography>
 
-        <Container className={classes.cardGrid} maxWidth="lg">
-          <Grid
-            container
-            spacing={2}
-          >
+        <Container className={classes.cardGrid} maxWidth="xl">
+          <Grid container spacing={2}>
             <Grid item xs={12} ms={6} md={4}>
               <Card className={classes.cards} elevation={2}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    Facilitate Learning (Teaching, Workshops, Lesson Planning) –
-                    approximately 70% of their time
-                  </Typography>
+                <Typography variant="subtitle1">
+                  Facilitate Learning (Teaching, Workshops, Lesson Planning) –
+                  approximately 70% of their time
+                </Typography>
 
-                  <Typography variant="body1">
-                    <ul>
-                      <li> Development of Lesson Plans</li>
-                      <li>
-                        Design & support in the delivery of classroom sessions
-                        (Technical & Non-Technical)
-                      </li>
-                      <li>Design & delivery of workshops</li>
-                      <li> Mentorship for students,</li>
-                      <li>Placement training</li>
-                      <li>Monitoring & Evaluation (Student Learning)</li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                <Typography variant="body1">
+                  <ul>
+                    <li> Development of Lesson Plans</li>
+                    <li>
+                      Design & support in the delivery of classroom sessions
+                      (Technical & Non-Technical)
+                    </li>
+                    <li>Design & delivery of workshops</li>
+                    <li> Mentorship for students,</li>
+                    <li>Placement training</li>
+                    <li>Monitoring & Evaluation (Student Learning)</li>
+                  </ul>
+                </Typography>
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
               <Card elevation={2} className={classes.cards}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    Program Management (Operations, Local Partnerships,
-                    Stakeholder Management) – approximately 30% of their time
-                  </Typography>
+                <Typography variant="subtitle1">
+                  Program Management (Operations, Local Partnerships,
+                  Stakeholder Management) – approximately 30% of their time
+                </Typography>
 
-                  <Typography variant="body1">
-                    <ul>
-                      <li>Management of placement processes & activities</li>
-                      <li>Reporting</li>
-                      <li>Partner Management</li>
-                      <li>
-                        {" "}
-                        Stakeholder Management (including local community)
-                      </li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                <Typography variant="body1">
+                  <ul>
+                    <li>Management of placement processes & activities</li>
+                    <li>Reporting</li>
+                    <li>Partner Management</li>
+                    <li> Stakeholder Management (including local community)</li>
+                  </ul>
+                </Typography>
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
               <Card elevation={2} className={classes.cards}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    Special Projects – Optional ( but highly encouraged)
-                  </Typography>
-                  <Typography variant="body1">
-                    <ul>
-                      <li>
-                        {" "}
-                        Pilot an idea for improving impact in their school
-                        (across Operations or Learning)
-                      </li>
-                      <li>
-                        Design and implement a project impacting the whole
-                        program (e.g., a data management system)
-                      </li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                <Typography variant="subtitle1">
+                  Special Projects – Optional ( but highly encouraged)
+                </Typography>
+                <Typography variant="body1">
+                  <ul>
+                    <li>
+                      {" "}
+                      Pilot an idea for improving impact in their school (across
+                      Operations or Learning)
+                    </li>
+                    <li>
+                      Design and implement a project impacting the whole program
+                      (e.g., a data management system)
+                    </li>
+                  </ul>
+                </Typography>
               </Card>
             </Grid>
           </Grid>
         </Container>
-        <Container sx={{ mt: 5 }} maxWidth="lg">
+        <Container sx={{ mt: 10 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
         <Typography
@@ -280,62 +267,61 @@ function Home() {
           <Grid container spacing={2}>
             <Grid item xs={12} ms={6} md={6}>
               <Card className={classes.cards} elevation={2}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    The learning and development objectives
-                  </Typography>
-                  <Typography variant="body1">
-                    <ul>
-                      <li>
-                        {" "}
-                        Prepare the fellows for a classroom facilitator’s role &
-                        support them in excelling at it
-                      </li>
-                      <li>
-                        Train the fellows in the tools required throughout their
-                        fellowship
-                      </li>
-                      <li>
-                        Help the fellows acquire project/program management &
-                        stakeholder management skills
-                      </li>
-                      <li>
-                        Develop the fellows into leaders beyond the classroom
-                      </li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                {/* <CardContent> */}
+                <Typography variant="subtitle1">
+                  The learning and development objectives
+                </Typography>
+                <Typography variant="body1">
+                  <ul>
+                    <li>
+                      {" "}
+                      Prepare the fellows for a classroom facilitator’s role &
+                      support them in excelling at it
+                    </li>
+                    <li>
+                      Train the fellows in the tools required throughout their
+                      fellowship
+                    </li>
+                    <li>
+                      Help the fellows acquire project/program management &
+                      stakeholder management skills
+                    </li>
+                    <li>
+                      Develop the fellows into leaders beyond the classroom
+                    </li>
+                  </ul>
+                </Typography>
+                {/* </CardContent> */}
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={6}>
               <Card className={classes.cards} elevation={2}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    The learning tools across the elements
-                  </Typography>
-                  <Typography variant="body1">
-                    <ul>
-                      <li>
-                        {" "}
-                        Lectures on pedagogy & other topics related to student
-                        learning
-                      </li>
-                      <li>Case studies from classrooms</li>
-                      <li>
-                        Training on tools, rubrics & software (communication,
-                        project management)
-                      </li>
-                      <li>Online courses across the year</li>
-                      <li>
-                        Online sessions by industry experts, entrepreneurs, etc.
-                      </li>
-                      <li>
-                        Peer Learning in workshops (shared fellowship
-                        experiences)
-                      </li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                {/* <CardContent> */}
+                <Typography variant="subtitle1">
+                  The learning tools across the elements
+                </Typography>
+                <Typography variant="body1">
+                  <ul>
+                    <li>
+                      {" "}
+                      Lectures on pedagogy & other topics related to student
+                      learning
+                    </li>
+                    <li>Case studies from classrooms</li>
+                    <li>
+                      Training on tools, rubrics & software (communication,
+                      project management)
+                    </li>
+                    <li>Online courses across the year</li>
+                    <li>
+                      Online sessions by industry experts, entrepreneurs, etc.
+                    </li>
+                    <li>
+                      Peer Learning in workshops (shared fellowship experiences)
+                    </li>
+                  </ul>
+                </Typography>
+                {/* </CardContent> */}
               </Card>
             </Grid>
           </Grid>
@@ -344,7 +330,11 @@ function Home() {
         <Container maxWidth="md">
           <Stack className={classes.pra} alignItems="center">
             {" "}
-            <Typography variant="body1" align="center" gutterBottom>
+            <Typography
+              sx={{ marginTop: "30px" }}
+              variant="body1"
+              align="center"
+              gutterBottom>
               NavGurukul will deliver fellow learning through an orientation
               session, multiple boot camps, online sessions & reviews by the
               NavGurukul team.
@@ -355,7 +345,7 @@ function Home() {
         <Container sx={{ mt: 5 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
-      
+
         <Typography
           sx={{ mt: 5 }}
           className={classes.spacing}
@@ -366,82 +356,75 @@ function Home() {
         </Typography>
 
         <Container className={classes.cardGrid} maxWidth="lg">
-          <Grid
-            container
-            spacing={2}
-          
-          >
+          <Grid container spacing={2}>
             <Grid item xs={12} ms={6} md={4}>
               <Card className={classes.cards} elevation={2}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    Facilitate Learning (Teaching, Workshops, Lesson Planning) –
-                    approximately 70% of their time
-                  </Typography>
+                {/* <CardContent> */}
+                <Typography variant="subtitle1">
+                  Facilitate Learning (Teaching, Workshops, Lesson Planning) –
+                  approximately 70% of their time
+                </Typography>
 
-                  <Typography variant="body1">
-                    <ul>
-                      <li> Development of Lesson Plans</li>
-                      <li>
-                        Design & support in the delivery of classroom sessions
-                        (Technical & Non-Technical)
-                      </li>
-                      <li>Design & delivery of workshops</li>
-                      <li> Mentorship for students,</li>
-                      <li>Placement training</li>
-                      <li>Monitoring & Evaluation (Student Learning)</li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                <Typography variant="body1">
+                  <ul>
+                    <li> Development of Lesson Plans</li>
+                    <li>
+                      Design & support in the delivery of classroom sessions
+                      (Technical & Non-Technical)
+                    </li>
+                    <li>Design & delivery of workshops</li>
+                    <li> Mentorship for students,</li>
+                    <li>Placement training</li>
+                    <li>Monitoring & Evaluation (Student Learning)</li>
+                  </ul>
+                </Typography>
+                {/* </CardContent> */}
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
               <Card className={classes.cards} elevation={2}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    Program Management (Operations, Local Partnerships,
-                    Stakeholder Management) – approximately 30% of their time
-                  </Typography>
+                {/* <CardContent> */}
+                <Typography variant="subtitle1">
+                  Program Management (Operations, Local Partnerships,
+                  Stakeholder Management) – approximately 30% of their time
+                </Typography>
 
-                  <Typography variant="body1">
-                    <ul>
-                      <li>Management of placement processes & activities</li>
-                      <li>Reporting</li>
-                      <li>Partner Management</li>
-                      <li>
-                        {" "}
-                        Stakeholder Management (including local community)
-                      </li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                <Typography variant="body1">
+                  <ul>
+                    <li>Management of placement processes & activities</li>
+                    <li>Reporting</li>
+                    <li>Partner Management</li>
+                    <li> Stakeholder Management (including local community)</li>
+                  </ul>
+                </Typography>
+                {/* </CardContent> */}
               </Card>
             </Grid>
             <Grid item xs={12} ms={6} md={4}>
               <Card className={classes.cards} elevation={2}>
-                <CardContent>
-                  <Typography variant="subtitle1">
-                    Special Projects – Optional ( but highly encouraged)
-                  </Typography>
-                  <Typography variant="body1">
-                    <ul>
-                      <li>
-                        {" "}
-                        Pilot an idea for improving impact in their school
-                        (across Operations or Learning)
-                      </li>
-                      <li>
-                        Design and implement a project impacting the whole
-                        program (e.g., a data management system)
-                      </li>
-                    </ul>
-                  </Typography>
-                </CardContent>
+                {/* <CardContent> */}
+                <Typography variant="subtitle1">
+                  Special Projects – Optional ( but highly encouraged)
+                </Typography>
+                <Typography variant="body1">
+                  <ul>
+                    <li>
+                      {" "}
+                      Pilot an idea for improving impact in their school (across
+                      Operations or Learning)
+                    </li>
+                    <li>
+                      Design and implement a project impacting the whole program
+                      (e.g., a data management system)
+                    </li>
+                  </ul>
+                </Typography>
+                {/* </CardContent> */}
               </Card>
             </Grid>
           </Grid>
         </Container>
-        <Container sx={{ mt: 5 }} maxWidth="lg">
+        <Container sx={{ mt: 10 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
         <ReadyToGo />

@@ -21,22 +21,15 @@ const useStyles = makeStyles((theme) => ({
     margin: "64px",
   },
 
-  cardGrid: {
-    padding: "10px 16px 10px 16px",
-  },
-
   cards: {
     height: "100%",
     backgroundColor: "#FFFFFF !important",
-  },
-  card: {
-    height: "100%",
-
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: "32px",
+    padding: "32px 32px 0px 32px",
   },
+
   image: {
     height: "100%",
   },
