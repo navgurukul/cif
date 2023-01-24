@@ -28,8 +28,7 @@ function Partner() {
           justifyContent: "center",
           mt: "81px",
           mb: "64px",
-        }}
-      >
+        }}>
         Created by Industry Leaders
       </Typography>
       <Grid container spacing={2}>
@@ -38,16 +37,14 @@ function Partner() {
             sx={{
               display: "flex",
               justifyContent: "center",
-            }}
-          >
+            }}>
             <Card
               // className={isActive ? classes.mobileCard : classes.desktopCard}
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
-              }}
-            >
+              }}>
               <CardContent>
                 <img
                   src={require("../../assets/niti-aayog.svg").default}
@@ -55,9 +52,7 @@ function Partner() {
                   alt="logo"
                   className={classes.image}
                 />
-                <Typography variant="subtitle1" sx={{ mb: "16px" }}>
-                  NITI AAYOG
-                </Typography>
+
                 <Typography variant="body1" sx={{ mb: "16px" }}>
                   NITI Aayog is the Government of India’s apex public policy
                   think tank. It also functions as a state-of-the-art resource
@@ -83,16 +78,14 @@ function Partner() {
               display: "flex",
               justifyContent: "center",
               marginTop: "17px",
-            }}
-          >
+            }}>
             <Card
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 padding: !isActive && "32px",
-              }}
-            >
+              }}>
               <CardContent>
                 <img
                   src={require("../../assets/navgurukul.svg").default}
@@ -100,9 +93,7 @@ function Partner() {
                   alt="logo"
                   className={classes.image}
                 />
-                <Typography variant="subtitle1" sx={{ mb: "16px" }}>
-                  NAVGURUKUL
-                </Typography>
+
                 <Typography variant="body1" sx={{ mb: "16px" }}>
                   NavGurukul is a not-for-profit founded in 2016 and is on a
                   mission to create access to aspirational careers for students
@@ -140,16 +131,14 @@ function Partner() {
             sx={{
               display: "flex",
               justifyContent: "center",
-            }}
-          >
+            }}>
             <Card
               sx={{
                 border: "1px dashed #7743DB",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 padding: !isActive && "32px",
-              }}
-            >
+              }}>
               <CardContent>
                 <img
                   src={require("../../assets/amazon.svg").default}
@@ -157,9 +146,7 @@ function Partner() {
                   alt="logo"
                   className={classes.image}
                 />
-                <Typography variant="subtitle1" sx={{ mb: "16px" }}>
-                  AMAZON
-                </Typography>
+
                 <Typography variant="body1" sx={{ mb: "16px" }}>
                   Amazon is one of the most recognizable brands in the world and
                   is a technology company with a presence across e-commerce,

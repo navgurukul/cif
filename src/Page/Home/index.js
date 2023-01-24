@@ -60,7 +60,7 @@ function Home() {
                 Learn real-world skills through classroom leadership
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Learn leadership, m aster management skills, accumulate
+                Learn leadership, master management skills, accumulate
                 life-defining experiences, and build your tribe for a purposeful
                 life and career by facilitating learning and managing classrooms
                 at a rural low-income school
