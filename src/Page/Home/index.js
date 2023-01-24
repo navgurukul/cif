@@ -48,7 +48,8 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}>
+                }}
+              >
                 <img
                   className={classes.image}
                   src={require("../../assets/image2.png")}
@@ -86,7 +87,8 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom>
+          gutterBottom
+        >
           All About CIF
         </Typography>
 
@@ -123,7 +125,8 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}>
+                }}
+              >
                 <img
                   className={classes.image}
                   src={require("../../assets/image.png")}
@@ -140,7 +143,8 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}>
+                }}
+              >
                 <img
                   className={classes.image}
                   src={require("../../assets/image1.png")}
@@ -188,7 +192,8 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom>
+          gutterBottom
+        >
           Programme Design and Deliverables
         </Typography>
 
@@ -276,7 +281,8 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom>
+          gutterBottom
+        >
           Fellow Learning
         </Typography>
         <Box className={classes.spacing}>
@@ -364,7 +370,8 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom>
+          gutterBottom
+        >
           Post Programme
         </Typography>
 

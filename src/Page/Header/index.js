@@ -88,7 +88,7 @@ function Header() {
               <img src={Logo} loading="lazy" alt="logo" />
             </Link>
           </Box>
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <Box sx={{ display: { xs: "none", sm: "block" }, mr: "20px" }}>
             {navItems.map((item) => (
               <Link to={item.path} className={classes.link}>
                 <Button
