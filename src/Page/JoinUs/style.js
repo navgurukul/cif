@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
   joinContainer__title: {
     fontWeight: "bold !important",
-    marginBottom: "64px !important",
+    marginBottom: "36px !important",
   },
   needContainer: {
     display: "flex !important",
@@ -25,14 +25,11 @@ const useStyles = makeStyles((theme) => ({
   },
   NeedCardType1: {
     background: "#FFFFFF !important",
-    display: "flex !important",
-    flexDirection: "column !important",
-    alignItems: "center !important",
-    justifyContent: "center !important",
     padding: "32px !important",
     maxWidth: "300px !important",
     textAlign: "left !important",
     minHeight: "80px !important",
+    "font-family": "Noto Sans",
   },
   NeedCardType2: {
     background: "#FFFFFF !important",
@@ -41,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center !important",
     justifyContent: "center !important",
     padding: "32px !important",
+    "font-family": "Noto Sans",
   },
   NeedCardInRow1: {
     margin: "32px 0 !important",
@@ -54,7 +52,6 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    
   },
   downSvg: {
     margin: "32px 0 !important",
