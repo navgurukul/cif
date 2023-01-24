@@ -200,40 +200,4 @@ theme = createTheme(theme, {
   shadows,
 });
 
-theme.components = {
-  //   MuiCardMedia: {
-  //     defaultProps: {
-  //       disableRipple: true,
-  //     },
-  //     styleOverrides: {
-  //       root: { width: 64 },
-  //     },
-  //   },
-  // MuiButton: {
-  //   styleOverrides: {
-  //     root: {
-  //       borderRadius: "8px",
-  //       height: "48px",
-  //     },
-  //   },
-  // },
-  // MuiPaper: {
-  //   styleOverrides: {
-  //     root: {
-  //       height: "100%",
-  //     },
-  //   },
-  // },
-  // MuiButtonBase: {
-  //   styleOverrides: {
-  //     root: {
-  //       // backgroundColor: "pink !important",
-  //       // margin: "10px 16px 10px 16px",
-  //       "&:hover": {
-  //         backgroundColor: "none !important",
-  //       },
-  //     },
-  //   },
-  // },
-};
 export default theme;

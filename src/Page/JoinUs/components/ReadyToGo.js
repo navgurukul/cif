@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  Container,
-  Card,
-  Box,
-  Grid,
-  Typography,
-  Divider,
-  SvgIcon,
-} from "@mui/material";
-import useStyles from "../style";
+import { Container, Typography } from "@mui/material";
+
 import Button from "@mui/material/Button";
 function ReadyToGo() {
   return (
@@ -19,16 +11,15 @@ function ReadyToGo() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          marginBottom: "2rem",
+          marginBottom: "2.2rem",
         }}
-        maxWidth="sm"
-      >
+        maxWidth="sm">
         <Typography
           style={{
             margin: "1rem 0",
+            marginTop: "2rem",
           }}
-          variant="h5"
-        >
+          variant="h5">
           Ready to Go?
         </Typography>
 
@@ -40,8 +31,7 @@ function ReadyToGo() {
             );
           }}
           sx={{ width: "352px", "&:hover": { backgroundColor: "#7743DB" } }}
-          variant="contained"
-        >
+          variant="contained">
           Apply Now
         </Button>
         <Typography marginTop={1} variant="body2">
@@ -52,8 +42,7 @@ function ReadyToGo() {
           style={{
             textAlign: "center",
           }}
-          variant="body2"
-        >
+          variant="body2">
           In case of any clarification on the application, please contact the
           CIF Recruiter & Manager at{" "}
           <span style={{ color: "#7743DB", fontWeight: 600 }}>

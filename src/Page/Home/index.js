@@ -2,13 +2,11 @@ import React from "react";
 import {
   Container,
   Typography,
-  CardMedia,
   CardContent,
   Card,
   Grid,
   Box,
   Stack,
-  Button,
 } from "@mui/material";
 import Divider from "@mui/material/Divider";
 
@@ -196,7 +194,6 @@ function Home() {
           <Grid
             container
             spacing={2}
-            // spacing={isActive ? 2 : 4}
           >
             <Grid item xs={12} ms={6} md={4}>
               <Card className={classes.cards} elevation={2}>
@@ -358,7 +355,7 @@ function Home() {
         <Container sx={{ mt: 5 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
-        {/* last--------------------------------------------------------------------------- */}
+      
         <Typography
           sx={{ mt: 5 }}
           className={classes.spacing}
@@ -372,7 +369,7 @@ function Home() {
           <Grid
             container
             spacing={2}
-            // spacing={isActive ? 2 : 4}
+          
           >
             <Grid item xs={12} ms={6} md={4}>
               <Card className={classes.cards} elevation={2}>

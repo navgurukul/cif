@@ -2,11 +2,10 @@ import React from "react";
 import {
   Container,
   Card,
-  Box,
   Grid,
   Typography,
   Divider,
-  SvgIcon,
+  
 } from "@mui/material";
 import useStyles from "../style";
 
@@ -22,8 +21,7 @@ function WhatWeNeed() {
           spacing={2}
           container
           justifyContent="space-between"
-          marginTop={6}
-        >
+          marginTop={6}>
           <Grid item>
             <Card elevation={2} className={classes.NeedCardType1}>
               Have a tech degree (Computer Science, Information Technology,
@@ -51,8 +49,7 @@ function WhatWeNeed() {
           container
           spacing={2}
           justifyContent="space-between"
-          className={classes.NeedCardInRow2}
-        >
+          className={classes.NeedCardInRow2}>
           <Grid item>
             <Card elevation={2} className={classes.NeedCardType2}>
               Have an aptitude for critical thinking and problem solving
@@ -65,13 +62,9 @@ function WhatWeNeed() {
           </Grid>
         </Grid>
       </Container>
-      <Container
-        maxWidth="lg"
-        style={{
-          margin: "4rem 0",
-          border: "1px solid grey",
-        }}
-      />
+      <Container sx={{ mt: 5 }} maxWidth="lg">
+        <Divider color="divider" />
+      </Container>
     </>
   );
 }

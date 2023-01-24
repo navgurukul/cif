@@ -6,7 +6,9 @@ function SelectionProcess() {
   return (
     <>
       <Container className={classes.selectionContainer} maxWidth="md">
-        <Typography variant="h5">Selection Process</Typography>
+        <Typography sx={{ mt: 5 }} variant="h5">
+          Selection Process
+        </Typography>
         <Container
           style={{
             display: "flex",
@@ -14,8 +16,7 @@ function SelectionProcess() {
             alignItems: "center",
             justifyContent: "center",
             marginTop: "2rem",
-          }}
-        >
+          }}>
           <Typography className={classes.processTitle}>
             Fill in the Application Form
           </Typography>
@@ -40,13 +41,9 @@ function SelectionProcess() {
           </Typography>
         </Container>
       </Container>
-      <Container
-        maxWidth="lg"
-        style={{
-          margin: "2rem 0",
-          border: "1px solid grey",
-        }}
-      />
+      <Container sx={{ mt: 5 }} maxWidth="lg">
+        <Divider color="divider" />
+      </Container>
     </>
   );
 }
