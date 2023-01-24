@@ -20,11 +20,11 @@ function Footer() {
           sx={{ mb: "8px" }}
           align="center"
         >
-          An Initiative by NavGurukul Foundation of Social Welfare
+          An Initiative by NavGurukul Foundation for Social Welfare
         </Typography>
-        <Typography variant="subtitle2" color="primary">
+        {/* <Typography variant="subtitle2" color="primary">
           hr-ops@navgurukul.org
-        </Typography>
+        </Typography> */}
       </Stack>
     </Box>
   );

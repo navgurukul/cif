@@ -66,7 +66,7 @@ function Header() {
   );
 
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <AppBar position="sticky" color="background" elevation={0}>
         <hr />
         <Box
@@ -84,22 +84,29 @@ function Header() {
           >
             <MenuIcon sx={{ fontSize: "30px" }} />
           </IconButton>
+
           <Box sx={{ flexGrow: 1, mx: "10px" }}>
-            <img src={Logo} loading="lazy" alt="logo" />
+            <Link to="/" className={classes.link}>
+              <img src={Logo} loading="lazy" alt="logo" />
+            </Link>
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <Link to={item.path} className={classes.link}>
                 <Button
                   key={item.name}
-                  color="dark"
+                  color={item.path === location.pathname ? "primary" : "dark"}
+                  variant={item.path === location.pathname && "contained"}
                   sx={{
                     px: "16px",
                     py: "8px",
-                    color: item.path === location.pathname && "#7743DB",
+                    color: item.path === location.pathname && "default",
+                    ":hover": {
+                      bgcolor: item.path === location.pathname && "#7743DB",
+                      color: item.path === location.pathname && "#FFFFFF",
+                    },
                   }}
                 >
-                  {console.log("item.path", item.path)}
                   {item.name}
                 </Button>
               </Link>
@@ -131,7 +138,7 @@ function Header() {
           {drawer}
         </Drawer>
       </Box>
-    </ThemeProvider>
+    </>
   );
 }
 
