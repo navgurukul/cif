@@ -37,7 +37,7 @@ function IndFaqs({ question, divider }) {
           </ul>
         </>
       )}
-      {divider && <Divider className={classes.divider} />}
+      {divider && <Divider light="true" className={classes.divider} />}
     </>
   );
 }

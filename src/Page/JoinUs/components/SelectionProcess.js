@@ -41,9 +41,9 @@ function SelectionProcess() {
         </Container>
       </Container>
       <Container
-        maxWidth="xl"
+        maxWidth="lg"
         style={{
-          margin: "4rem 0",
+          margin: "2rem 0",
           border: "1px solid grey",
         }}
       />
