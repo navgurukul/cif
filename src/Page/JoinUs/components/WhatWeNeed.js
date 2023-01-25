@@ -32,9 +32,7 @@ function WhatWeNeed() {
           </Grid>
           <Grid item>
             <Card elevation={2} className={classes.NeedCardType1}>
-              Find the idea of utilizing a year facilitating learning for young
-              women and girls in a low-income rural school while becoming a
-              better version of yourselves exciting
+            Commitment to utilizing a year facilitating learning for young women and girls in a low-income rural classroom while becoming a better version of yourselves
             </Card>
           </Grid>
         </Grid>

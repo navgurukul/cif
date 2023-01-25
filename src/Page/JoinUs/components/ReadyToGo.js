@@ -2,7 +2,11 @@ import React from "react";
 import { Container, Typography } from "@mui/material";
 
 import Button from "@mui/material/Button";
+import useMediaQuery from "@mui/material/useMediaQuery";
+// import { breakpoints } from "../../Theme/constant";
+import { breakpoints } from "../../../Theme/constant";
 function ReadyToGo() {
+  const isActive = useMediaQuery("(max-width:" + breakpoints.values.sm + "px)");
   return (
     <>
       <Container
@@ -12,8 +16,10 @@ function ReadyToGo() {
           alignItems: "center",
           justifyContent: "center",
           marginBottom: "2.2rem",
+          paddingLeft: !isActive && "100px",
+          paddingRight: !isActive && "100px",
         }}
-        maxWidth="sm">
+        maxWidth="md">
         <Typography
           style={{
             margin: "1rem 0",
@@ -30,15 +36,19 @@ function ReadyToGo() {
               "_blank"
             );
           }}
-          sx={{ width: "352px", height:"48px", "&:hover": { backgroundColor: "#7743DB" } }}
+          sx={{
+            width: "352px",
+            height: "48px",
+            "&:hover": { backgroundColor: "#7743DB" },
+          }}
           variant="contained">
           Apply Now
         </Button>
-        <Typography marginTop={1} variant="body2">
+        <Typography sx={{ marginTop: "16px" }} variant="body2">
           Application Deadline: 20 March 2023.
         </Typography>
         <Typography
-          marginTop={2}
+          sx={{ marginTop: "16px" }}
           style={{
             textAlign: "center",
           }}
@@ -49,9 +59,8 @@ function ReadyToGo() {
             {" "}
             niyas@navgurukul.org{" "}
           </span>{" "}
-          with
+          with {isActive ? <br /> : " "}
           <span style={{ color: "#7743DB", fontWeight: 600 }}>
-            {" "}
             hr-ops@navgurukul.org{" "}
           </span>{" "}
           in cc
