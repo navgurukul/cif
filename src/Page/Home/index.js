@@ -44,8 +44,7 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}
-              >
+                }}>
                 <img
                   className={classes.image}
                   src={require(`../../assets/${teachingImage}.png`)}
@@ -83,8 +82,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           All About CIF
         </Typography>
 
@@ -121,8 +119,7 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}
-              >
+                }}>
                 <img
                   className={classes.image}
                   src={require(`../../assets/${studentsImage}.png`)}
@@ -139,8 +136,7 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}
-              >
+                }}>
                 <img
                   className={classes.image}
                   src={require("../../assets/image1.png")}
@@ -188,8 +184,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           Programme Design and Deliverables
         </Typography>
 
@@ -200,8 +195,7 @@ function Home() {
               xs={12}
               ms={6}
               md={4}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">
                   Facilitate Learning (Teaching, Workshops, Lesson Planning) –
@@ -228,8 +222,7 @@ function Home() {
               xs={12}
               ms={6}
               md={4}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card elevation={2} className={classes.cards}>
                 <Typography variant="subtitle1">
                   Program Management (Operations, Local Partnerships,
@@ -251,8 +244,7 @@ function Home() {
               xs={12}
               ms={6}
               md={4}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card elevation={2} className={classes.cards}>
                 <Typography variant="subtitle1">
                   Special Projects – Optional ( but highly encouraged)
@@ -282,8 +274,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           Fellow Learning
         </Typography>
         <Box className={classes.spacing}>
@@ -293,8 +284,7 @@ function Home() {
               xs={12}
               ms={6}
               md={6}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">
                   The learning and development objectives
@@ -325,8 +315,7 @@ function Home() {
               xs={12}
               ms={6}
               md={6}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">
                   The learning tools across the elements
@@ -363,8 +352,7 @@ function Home() {
               sx={{ marginTop: !isActive && "30px" }}
               variant="body1"
               align="center"
-              gutterBottom
-            >
+              gutterBottom>
               NavGurukul will deliver fellow learning through an orientation
               session, multiple boot camps, online sessions & reviews by the
               NavGurukul team.
@@ -379,8 +367,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           Post Programme
         </Typography>
         <Container maxWidth="lg" sx={{ mt: 5 }}>
@@ -390,8 +377,7 @@ function Home() {
               xs={12}
               ms={6}
               md={4}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">Placement Support</Typography>
 
@@ -414,8 +400,7 @@ function Home() {
               xs={12}
               ms={6}
               md={4}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">Startup Support</Typography>
 
@@ -441,8 +426,7 @@ function Home() {
               xs={12}
               ms={6}
               md={4}
-              className={isActive && classes.cardGrid}
-            >
+              className={isActive && classes.cardGrid}>
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">
                   Alumni Community and Network

@@ -5,13 +5,19 @@
       "content": [
         {
           "question": "What is the purpose of the Code India Fellowship?",
-          "answer": "The purpose of the Code India Fellowship is to provide a platform for students to learn and practice the skills required to become a software developer. The program is designed to help students build a portfolio of projects and to help them get a job as a software developer.",
+          "answer":"Code India Fellowship aims to transform the learning and life outcomes of young women/girl students studying in government high schools by placing fellows. CIF will enable young women to have jobs or admission to advanced training opportunities by the time they finish their school education. ",
           "bulletPoints": [],
           "turnOn": true
         },
         {
           "question": "What will a Code India Fellow do?",
           "answer": "The fellow will facilitate the learning of coding/programming in the classroom (Teaching, Workshops, Lesson Planning), which would be approximately 70% of their time, and manage the program at the school level (Operations, Local Partnerships, Stakeholder Management) which would be approximately 30% of their time. The fellow can also take up special projects benefiting the program .",
+          "bulletPoints": [],
+          "turnOn": false
+        },
+        {
+          "question": "What is the training provided for a Code India Fellow?",
+          "answer": "The fellow will be trained across pedagogy, tools, rubrics & software to prepare the fellows for a classroom facilitator’s role and acquire project/program management & stakeholder management skills. Fellow learning will be delivered through an orientation session, multiple boot camps, online sessions & reviews by the NavGurukul team.",
           "bulletPoints": [],
           "turnOn": false
         },
@@ -23,7 +29,7 @@
         },
         {
           "question": "What is the stipend for the Fellows?",
-          "answer": "The fellows will receive a stipend of INR 25,000 per month for the duration of the fellowship.",
+          "answer": "The fellows will receive a stipend of INR 25,000 to INR 30,000 per month for the duration of the fellowship.",
           "bulletPoints": [],
           "turnOn": false
         },
@@ -40,7 +46,7 @@
         },
         {
           "question": "What special/additional projects can a fellow work on during the fellowship?",
-          "answer": "The curriculum for the students will be targeted at the job market and will cover the following topics:",
+          "answer": "",
           "bulletPoints": [
             "Pilot an idea for improving their Center (across Operations or Learning)",
             "Design and implement a project impacting the whole program (e.g., a data management system)"
@@ -57,7 +63,7 @@
           "answer": "This fellowship is for you if you,",
           "bulletPoints": [
             "Have a tech degree (Computer Science, Information Technology); apply if you aren’t a tech graduate but are good at tech",
-            "Belief in the Code India Fellowship mission.",
+            "Believe in the Code India Fellowship mission.",
             "Find the idea of utilizing a year facilitating learning for young women and girls in a low-income rural school exciting."
           ],
           "turnOn": false
@@ -103,7 +109,7 @@
           "bulletPoints": [
             "Application Form ",
             "Technical Round - test score from a coding competition on our partner community",
-            "Teaching round - 15-minute video recording of you explaining any concept or live classroom session ",
+            "Teaching round -  15-minute video recording of you explaining any concept or live classroom session to Live online teaching assessment",
             "Interview - Panel interview"
           ],
           "turnOn": false
@@ -145,7 +151,7 @@
         },
         {
           "question": "Would a Code India Fellow be provided with accommodation?",
-          "answer": "No. Fellows wouldn’t be provided with accommodation.",
+          "answer": "No. Fellows wouldn’t be provided with accommodation. The stipend includes an HRA of INR 5000 per month to take care of the accommodation expenses.",
           "bulletPoints": [],
           "turnOn": false
         },
