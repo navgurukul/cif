@@ -25,10 +25,10 @@ const useStyles = makeStyles((theme) => ({
   },
   NeedCardType1: {
     background: "#FFFFFF !important",
-    padding: "32px !important",
+    padding: "32px 32px 26px 32px !important",
     maxWidth: "300px !important",
     textAlign: "left !important",
-    minHeight: "80px !important",
+    minHeight: "120px !important",
     "font-family": "Noto Sans",
   },
   NeedCardType2: {
