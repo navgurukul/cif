@@ -30,7 +30,7 @@ function ReadyToGo() {
               "_blank"
             );
           }}
-          sx={{ width: "352px", "&:hover": { backgroundColor: "#7743DB" } }}
+          sx={{ width: "352px", height:"48px", "&:hover": { backgroundColor: "#7743DB" } }}
           variant="contained">
           Apply Now
         </Button>
