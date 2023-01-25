@@ -390,22 +390,45 @@ function Home() {
               className={isActive && classes.cardGrid}
             >
               <Card className={classes.cards} elevation={2}>
-                <Typography variant="subtitle1">
-                  Facilitate Learning (Teaching, Workshops, Lesson Planning) –
-                  approximately 70% of their time
-                </Typography>
+                <Typography variant="subtitle1">Placement Support</Typography>
 
                 <Typography variant="body1">
                   <ul>
-                    <li> Development of Lesson Plans</li>
                     <li>
-                      Design & support in the delivery of classroom sessions
-                      (Technical & Non-Technical)
+                      A streamlined process for applying to impact organizations
+                      / social enterprises
                     </li>
-                    <li>Design & delivery of workshops</li>
-                    <li> Mentorship for students,</li>
-                    <li>Placement training</li>
-                    <li>Monitoring & Evaluation (Student Learning)</li>
+                    <li>
+                      Continuous support during the application & selection
+                      process
+                    </li>
+                  </ul>
+                </Typography>
+              </Card>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
+              <Card className={classes.cards} elevation={2}>
+                <Typography variant="subtitle1">Startup Support</Typography>
+
+                <Typography variant="body1">
+                  <ul>
+                    <li>
+                      Support for establishing impact organizations / social
+                      enterprises
+                    </li>
+                    <li>
+                      Access to NavGurukul’s network of mentors & entrepreneurs
+                    </li>
+                    <li>
+                      Option to start-up within the NavGurukul universe - for
+                      education Impact start-ups
+                    </li>
                   </ul>
                 </Typography>
               </Card>
@@ -419,41 +442,19 @@ function Home() {
             >
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">
-                  Program Management (Operations, Local Partnerships,
-                  Stakeholder Management) – approximately 30% of their time
-                </Typography>
-
-                <Typography variant="body1">
-                  <ul>
-                    <li>Management of placement processes & activities</li>
-                    <li>Reporting</li>
-                    <li>Partner Management</li>
-                    <li> Stakeholder Management (including local community)</li>
-                  </ul>
-                </Typography>
-              </Card>
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              ms={6}
-              md={4}
-              className={isActive && classes.cardGrid}
-            >
-              <Card className={classes.cards} elevation={2}>
-                <Typography variant="subtitle1">
-                  Special Projects – Optional ( but highly encouraged)
+                  Alumni Community and Network
                 </Typography>
                 <Typography variant="body1">
                   <ul>
                     <li>
-                      {" "}
-                      Pilot an idea for improving impact in their school (across
-                      Operations or Learning)
+                      As a CIF, one would be part of a more extensive network of
+                      like-minded individuals who can be potential colleagues,
+                      co-founders, or support networks.
                     </li>
                     <li>
-                      Design and implement a project impacting the whole program
-                      (e.g., a data management system)
+                      An Alumni Community with online & offline presence will be
+                      formed and developed into a platform for sharing
+                      opportunities, ideas, and general support.
                     </li>
                   </ul>
                 </Typography>
