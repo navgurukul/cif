@@ -16,20 +16,17 @@ const useStyles = makeStyles((theme) => ({
   spacing16: {
     margin: "16px",
   },
-
   spacing64: {
     margin: "64px",
   },
-
   cards: {
     height: "100%",
     backgroundColor: "#FFFFFF !important",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
     padding: "32px 32px 0px 32px",
   },
-
+  cardGrid: {
+    paddingBottom: "40px !important",
+  },
   image: {
     height: "100%",
   },

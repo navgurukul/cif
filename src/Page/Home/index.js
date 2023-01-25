@@ -1,19 +1,15 @@
 import React from "react";
-import {
-  Container,
-  Typography,
-  Card,
-  Grid,
-  Box,
-  Stack,
-} from "@mui/material";
+import { Container, Typography, Card, Grid, Box, Stack } from "@mui/material";
 import Divider from "@mui/material/Divider";
-
 import useStyles from "./styles";
 import ReadyToGo from "../JoinUs/components/ReadyToGo";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { breakpoints } from "../../Theme/constant";
 
 function Home() {
   const classes = useStyles();
+  const isActive = useMediaQuery("(max-width:" + breakpoints.values.sm + "px)");
+
   return (
     <div>
       <Container className={classes.container} maxWidth="lg">
@@ -194,9 +190,15 @@ function Home() {
           Programme Design and Deliverables
         </Typography>
 
-        <Container className={classes.cardGrid} maxWidth="xl">
+        <Container maxWidth="lg" sx={{ mt: 5 }}>
           <Grid container spacing={2}>
-            <Grid item xs={12} ms={6} md={4}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
               <Card className={classes.cards} elevation={2}>
                 <Typography variant="subtitle1">
                   Facilitate Learning (Teaching, Workshops, Lesson Planning) –
@@ -218,7 +220,13 @@ function Home() {
                 </Typography>
               </Card>
             </Grid>
-            <Grid item xs={12} ms={6} md={4}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
               <Card elevation={2} className={classes.cards}>
                 <Typography variant="subtitle1">
                   Program Management (Operations, Local Partnerships,
@@ -235,7 +243,13 @@ function Home() {
                 </Typography>
               </Card>
             </Grid>
-            <Grid item xs={12} ms={6} md={4}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
               <Card elevation={2} className={classes.cards}>
                 <Typography variant="subtitle1">
                   Special Projects – Optional ( but highly encouraged)
@@ -271,16 +285,20 @@ function Home() {
         </Typography>
         <Box className={classes.spacing}>
           <Grid container spacing={2}>
-            <Grid item xs={12} ms={6} md={6}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={6}
+              className={isActive && classes.cardGrid}
+            >
               <Card className={classes.cards} elevation={2}>
-                {/* <CardContent> */}
                 <Typography variant="subtitle1">
                   The learning and development objectives
                 </Typography>
                 <Typography variant="body1">
                   <ul>
                     <li>
-                      {" "}
                       Prepare the fellows for a classroom facilitator’s role &
                       support them in excelling at it
                     </li>
@@ -297,12 +315,16 @@ function Home() {
                     </li>
                   </ul>
                 </Typography>
-                {/* </CardContent> */}
               </Card>
             </Grid>
-            <Grid item xs={12} ms={6} md={6}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={6}
+              className={isActive && classes.cardGrid}
+            >
               <Card className={classes.cards} elevation={2}>
-                {/* <CardContent> */}
                 <Typography variant="subtitle1">
                   The learning tools across the elements
                 </Typography>
@@ -327,7 +349,6 @@ function Home() {
                     </li>
                   </ul>
                 </Typography>
-                {/* </CardContent> */}
               </Card>
             </Grid>
           </Grid>
@@ -335,23 +356,21 @@ function Home() {
 
         <Container maxWidth="md">
           <Stack className={classes.pra} alignItems="center">
-            {" "}
             <Typography
-              sx={{ marginTop: "30px" }}
+              sx={{ marginTop: !isActive && "30px" }}
               variant="body1"
               align="center"
-              gutterBottom>
+              gutterBottom
+            >
               NavGurukul will deliver fellow learning through an orientation
               session, multiple boot camps, online sessions & reviews by the
               NavGurukul team.
             </Typography>
           </Stack>
         </Container>
-
         <Container sx={{ mt: 5 }} maxWidth="lg">
           <Divider color="divider" />
         </Container>
-
         <Typography
           sx={{ mt: 5 }}
           className={classes.spacing}
@@ -361,12 +380,16 @@ function Home() {
         >
           Post Programme
         </Typography>
-
-        <Container className={classes.cardGrid} maxWidth="lg">
+        <Container maxWidth="lg" sx={{ mt: 5 }}>
           <Grid container spacing={2}>
-            <Grid item xs={12} ms={6} md={4}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
               <Card className={classes.cards} elevation={2}>
-                {/* <CardContent> */}
                 <Typography variant="subtitle1">
                   Facilitate Learning (Teaching, Workshops, Lesson Planning) –
                   approximately 70% of their time
@@ -385,12 +408,16 @@ function Home() {
                     <li>Monitoring & Evaluation (Student Learning)</li>
                   </ul>
                 </Typography>
-                {/* </CardContent> */}
               </Card>
             </Grid>
-            <Grid item xs={12} ms={6} md={4}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
               <Card className={classes.cards} elevation={2}>
-                {/* <CardContent> */}
                 <Typography variant="subtitle1">
                   Program Management (Operations, Local Partnerships,
                   Stakeholder Management) – approximately 30% of their time
@@ -404,12 +431,16 @@ function Home() {
                     <li> Stakeholder Management (including local community)</li>
                   </ul>
                 </Typography>
-                {/* </CardContent> */}
               </Card>
             </Grid>
-            <Grid item xs={12} ms={6} md={4}>
+            <Grid
+              item
+              xs={12}
+              ms={6}
+              md={4}
+              className={isActive && classes.cardGrid}
+            >
               <Card className={classes.cards} elevation={2}>
-                {/* <CardContent> */}
                 <Typography variant="subtitle1">
                   Special Projects – Optional ( but highly encouraged)
                 </Typography>
@@ -426,7 +457,6 @@ function Home() {
                     </li>
                   </ul>
                 </Typography>
-                {/* </CardContent> */}
               </Card>
             </Grid>
           </Grid>
