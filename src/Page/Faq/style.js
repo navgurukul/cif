@@ -2,17 +2,21 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   faqContainer: {
-    // fontFamily: theme.typography.fontFamily,
+    fontFamily: theme.typography.fontFamily,
     // fontStyle: "normal",
+    marginTop: "2rem",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
   },
   faqHeader: {
-    "text-shadow": " 0px 4px 4px rgba(0, 0, 0, 0.25)",
+    // "text-shadow": " 0px 4px 4px rgba(0, 0, 0, 0.25)",
     "font-weight": 600,
     "text-align": "center",
-    "font-size": theme.typography.h2.fontSize,
+    "font-size": theme.typography.h3.fontSize,
+    [theme.breakpoints.down("sm")]: {
+      "font-size": theme.typography.h5.fontSize,
+    },
   },
   faqsContainer: {
     display: "flex",
@@ -36,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "16px !important",
   },
   divider: {
+    backgroundColor: "#DEDEDE",
     margin: "32px 0px !important",
   },
 }));

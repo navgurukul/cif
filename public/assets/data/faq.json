@@ -45,7 +45,7 @@
             "Pilot an idea for improving their Center (across Operations or Learning)",
             "Design and implement a project impacting the whole program (e.g., a data management system)"
           ],
-          "turnOn": true
+          "turnOn": false
         }
       ]
     },
@@ -66,7 +66,7 @@
           "question": "I am not a tech graduate. Can I still apply for the fellowship?",
           "answer": "Yes. Apply if you are good at tech and are excited about the idea or the mission.",
           "bulletPoints": [],
-          "turnOn": true
+          "turnOn": false
         },
         {
           "question": "I am working full-time and would like to continue working on my job. Can I be a part of CIF?",
@@ -124,7 +124,7 @@
           "question": "Whom should I contact if I need clarification about my application?",
           "answer": "In case of any clarification on the application, please contact the CIF Recruiter & Manager at niyas@navgurukul.org and hr-ops@navgurukul.org.",
           "bulletPoints": [],
-          "turnOn": true
+          "turnOn": false
         }
       ]
     },

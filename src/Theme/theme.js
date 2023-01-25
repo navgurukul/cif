@@ -18,18 +18,18 @@ theme = createTheme(theme, {
   palette: {
     mode: "light",
     default: {
-      // main: "#FFFFFF",
+      main: "#FFFFFF",
       // contrastText: "#000000",
       light: "#0066FF",
-      main: "#fff",
+      // main: "#fff",
       // dark: will be calculated from palette.secondary.main,
       contrastText: "#FFCC00",
     },
     primary: {
-      //Green
-      main: "#f05f40",
-      light: "#E9F5E9",
-      dark: "#3A8137",
+      //Lavender
+      main: "#7743DB",
+      light: "#794dcd",
+      // dark: "#3A8137",
     },
 
     grey: {
@@ -43,14 +43,16 @@ theme = createTheme(theme, {
       hint: "#949494",
     },
     background: {
-      default: "#FFFFFF",
-      paper: "#FFFFFF",
+      default: "#FEFFF8",
+      paper: "#FEFFF8",
+      // default: "#FFFFFF",
+      // paper: "#FFFFFF",
     },
     dark: {
       main: "#2E2E2E",
       contrastText: "#FFFFFF",
     },
-    divider: "#DEDEDE",
+    divider: "#2E2E2E",
   },
   typography: {
     fontFamily: "Noto Sans",
@@ -121,13 +123,14 @@ theme = createTheme(theme, {
       fontWeight: 700,
     },
     subtitle2: {
-      fontSize: "0.875rem",
+      // fontSize: "0.875rem",
+      fontSize: "14px",
       fontFamily: "Noto Sans",
       [theme.breakpoints.down("sm")]: {
         fontSize: "0.875rem",
       },
-      fontWeight: 700,
-      lineHeight: "170%",
+      fontWeight: 600,
+      lineHeight: "23.8px",
     },
     body1: {
       fontSize: "1.125rem",
@@ -197,34 +200,4 @@ theme = createTheme(theme, {
   shadows,
 });
 
-theme.components = {
-  //   MuiCardMedia: {
-  //     defaultProps: {
-  //       disableRipple: true,
-  //     },
-  //     styleOverrides: {
-  //       root: { width: 64 },
-  //     },
-  //   },
-  MuiButton: {
-    styleOverrides: {
-      root: {
-        borderRadius: "8px",
-        height: "48px",
-      },
-    },
-  },
-  MuiMenuItem: {
-    styleOverrides: {
-      root: {
-        height: "48px",
-        // margin: "10px 16px 10px 16px",
-        "&:hover": {
-          backgroundColor: "#E9F5E9",
-          borderRadius: "8px",
-        },
-      },
-    },
-  },
-};
 export default theme;
