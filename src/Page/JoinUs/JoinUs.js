@@ -21,5 +21,4 @@ function JoinUs() {
     </Container>
   );
 }
-
 export default JoinUs;
