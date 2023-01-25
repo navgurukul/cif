@@ -3,7 +3,6 @@ import { Container, Typography } from "@mui/material";
 
 import Button from "@mui/material/Button";
 import useMediaQuery from "@mui/material/useMediaQuery";
-// import { breakpoints } from "../../Theme/constant";
 import { breakpoints } from "../../../Theme/constant";
 function ReadyToGo() {
   const isActive = useMediaQuery("(max-width:" + breakpoints.values.sm + "px)");
