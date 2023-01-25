@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Typography,
-  Card,
-  Grid,
-  Box,
-  Stack,
-} from "@mui/material";
+import { Container, Typography, Card, Grid, Box, Stack } from "@mui/material";
 import Divider from "@mui/material/Divider";
 
 import useStyles from "./styles";
@@ -14,6 +7,11 @@ import ReadyToGo from "../JoinUs/components/ReadyToGo";
 
 function Home() {
   const classes = useStyles();
+  const isActive = useMediaQuery("(max-width:" + breakpoints.values.sm + "px)");
+
+  const teachingImage = isActive ? "image3" : "image2";
+  const studentsImage = isActive ? "image4" : "image";
+
   return (
     <div>
       <Container className={classes.container} maxWidth="lg">
@@ -45,11 +43,10 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}
-              >
+                }}>
                 <img
                   className={classes.image}
-                  src={require("../../assets/image2.png")}
+                  src={require(`../../assets/${teachingImage}.png`)}
                 />
               </Card>
             </Grid>
@@ -84,8 +81,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           All About CIF
         </Typography>
 
@@ -122,11 +118,10 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}
-              >
+                }}>
                 <img
                   className={classes.image}
-                  src={require("../../assets/image.png")}
+                  src={require(`../../assets/${studentsImage}.png`)}
                 />
               </Card>
             </Grid>
@@ -140,8 +135,7 @@ function Home() {
                 sx={{
                   borderRadius: "8px",
                   height: "100%",
-                }}
-              >
+                }}>
                 <img
                   className={classes.image}
                   src={require("../../assets/image1.png")}
@@ -189,8 +183,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           Programme Design and Deliverables
         </Typography>
 
@@ -265,8 +258,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           Fellow Learning
         </Typography>
         <Box className={classes.spacing}>
@@ -357,8 +349,7 @@ function Home() {
           className={classes.spacing}
           variant="h5"
           align="center"
-          gutterBottom
-        >
+          gutterBottom>
           Post Programme
         </Typography>
 
