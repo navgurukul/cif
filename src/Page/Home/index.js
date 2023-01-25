@@ -10,6 +10,9 @@ function Home() {
   const classes = useStyles();
   const isActive = useMediaQuery("(max-width:" + breakpoints.values.sm + "px)");
 
+  const teachingImage = isActive ? "image3" : "image2";
+  const studentsImage = isActive ? "image4" : "image";
+
   return (
     <div>
       <Container className={classes.container} maxWidth="lg">
@@ -45,7 +48,7 @@ function Home() {
               >
                 <img
                   className={classes.image}
-                  src={require("../../assets/image2.png")}
+                  src={require(`../../assets/${teachingImage}.png`)}
                 />
               </Card>
             </Grid>
@@ -122,7 +125,7 @@ function Home() {
               >
                 <img
                   className={classes.image}
-                  src={require("../../assets/image.png")}
+                  src={require(`../../assets/${studentsImage}.png`)}
                 />
               </Card>
             </Grid>
