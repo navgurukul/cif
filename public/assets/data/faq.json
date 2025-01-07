@@ -37,10 +37,17 @@
           "question": "What is the curriculum to be used at CIF?",
           "answer": "The curriculum for the students will be targeted at the job market and will cover the following topics:",
           "bulletPoints": [
-            "Programming Language(s) – Python, Java",
-            "Algorithms, Data Structures, Problem-Solving",
-            "Other Digital Skills ",
-            "Communicative English"
+            "Module 0 - Math",
+            "Module 1 - Number Systems",
+            "Module 2A - Problem-Solving Using Flowcharts ",
+            "Module 2B - Introduction to HTML and CSS",
+            "Module 3 - Introduction to Programming Using JavaScript (Part 1)",
+            "Module 4 - Introduction to Programming Using JavaScript (Part 2)",
+            "Module 5A - Web Development Basics using JavaScript",
+            "Module 5B - Introduction to Web Application Architecture",
+            "Module 6A - ES6",
+            "Module 6B - Database",
+            "Hackathons"
           ],
           "turnOn": false
         },
@@ -88,7 +95,7 @@
         },
         {
           "question": "Is it required for the applicant to be an Indian citizen?",
-          "answer": "Only Indian citizens, OCI card holders, and citizens of Nepal & Bhutan can apply for the fellowship.",
+          "answer": "Applicants from any country are welcome to apply, but you must be in India during the fellowship period.",
           "bulletPoints": [],
           "turnOn": false
         },
@@ -128,7 +135,7 @@
         },
         {
           "question": "Whom should I contact if I need clarification about my application?",
-          "answer": "In case of any clarification on the application, please contact the CIF Recruiter & Manager at niyas@navgurukul.org and hr-ops@navgurukul.org.",
+          "answer": "In case of any clarification on the application, please contact the CIF Recruiter & Manager at  ashwini.m@navgurukul.org and talent@navgurukul.org",
           "bulletPoints": [],
           "turnOn": false
         }

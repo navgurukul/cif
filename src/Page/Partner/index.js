@@ -106,14 +106,15 @@ function Partner() {
                   NavGurukul’s flagship Residential Program works with learners
                   from underserved communities to help them become programmers
                   and gives them a guaranteed job once they finish the program.
-                  Currently, NavGurukul is training 1000+ students in seven
-                  fully funded residential centers across various states in
-                  India. Six of the seven campuses have only girl students. The
-                  focus on gender is a conscious choice, as inclusion is one of
+                  Currently, NavGurukul is training 1000+ students and
+                  we have 10 campuses including BCA program - 1 is (
+                  co - campuses) campus, 1 is boys campus and rest 8 is fully 
+                  girl campuses which arefully funded residential centers across various states in
+                  India. Thefocus on gender is a conscious choice, as inclusion is one of
                   the core principles guiding NavGurukul’s choices and focus
                   areas. The residential program is open for students who have
                   finished just 10th grade and are 17 years of age. NavGurukul
-                  has placed around 500+ students in software jobs in the tech
+                  has placed around 1100+ students in software jobs in the tech
                   industry with various IT giants and product startups.
                 </Typography>
                 <Typography variant="body1" sx={{ mb: "16px" }}>
