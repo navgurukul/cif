@@ -56,11 +56,11 @@ function ReadyToGo() {
           CIF Recruiter & Manager at{" "}
           <span style={{ color: "#7743DB", fontWeight: 600 }}>
             {" "}
-            niyas@navgurukul.org{" "}
+            ashwini.m@navgurukul.org{" "}
           </span>{" "}
           with {isActive ? <br /> : " "}
           <span style={{ color: "#7743DB", fontWeight: 600 }}>
-            hr-ops@navgurukul.org{" "}
+            talent@navgurukul.org{" "}
           </span>{" "}
           in cc
         </Typography>
