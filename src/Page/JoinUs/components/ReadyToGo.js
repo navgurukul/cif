@@ -44,7 +44,7 @@ function ReadyToGo() {
           Apply Now
         </Button>
         <Typography sx={{ marginTop: "16px" }} variant="body2">
-          Application Deadline: 20 March 2023.
+          Application Deadline:.
         </Typography>
         <Typography
           sx={{ marginTop: "16px" }}
