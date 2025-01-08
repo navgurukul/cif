@@ -44,7 +44,7 @@ function ReadyToGo() {
           Apply Now
         </Button>
         <Typography sx={{ marginTop: "16px" }} variant="body2">
-          Application Deadline: 20 March 2023.
+          Application Deadline:.
         </Typography>
         <Typography
           sx={{ marginTop: "16px" }}
@@ -60,7 +60,7 @@ function ReadyToGo() {
           </span>{" "}
           with {isActive ? <br /> : " "}
           <span style={{ color: "#7743DB", fontWeight: 600 }}>
-            talent@navgurukul.org{" "}
+          careers@navgurukul.org{" "}
           </span>{" "}
           in cc
         </Typography>
