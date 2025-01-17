@@ -98,32 +98,32 @@ function Partner() {
                 />
 
                 <Typography variant="body1" sx={{ mb: "16px" }}>
-                  NavGurukul is a not-for-profit founded in 2016 and is on a
-                  mission to create access to aspirational careers for students
-                  from marginalized communities.
+                  NavGurukul is a not-for-profit organization founded in 
+                  2016 with a mission to create access to aspirational careers 
+                  for students from marginalized communities.
                 </Typography>
                 <Typography variant="body1" sx={{ mb: "16px" }}>
-                  NavGurukul’s flagship Residential Program works with learners
-                  from underserved communities to help them become programmers
-                  and gives them a guaranteed job once they finish the program.
-                  Currently, NavGurukul is training 1000+ students in seven
-                  fully funded residential centers across various states in
-                  India. Six of the seven campuses have only girl students. The
-                  focus on gender is a conscious choice, as inclusion is one of
-                  the core principles guiding NavGurukul’s choices and focus
-                  areas. The residential program is open for students who have
-                  finished just 10th grade and are 17 years of age. NavGurukul
-                  has placed around 500+ students in software jobs in the tech
-                  industry with various IT giants and product startups.
+                  NavGurukul's flagship Residential Program works with learners from 
+                  underserved communities, helping them become programmers and secure 
+                  guaranteed jobs upon completing the program. Currently, we have 10 
+                  campuses, including the BCA program. Of these, one is a co-ed campus, 
+                  one is a boys' campus, and the remaining eight are exclusively girls' 
+                  campuses. NavGurukul is training over 1,000 students across these 
+                  fully funded residential centers in various states of India. This 
+                  focus on gender inclusion is a conscious decision, as inclusion is one 
+                  of the core principles guiding NavGurukul's mission and focus areas.
+                  The residential program is open to students who have completed 10th 
+                  grade and are at least 17 years old. To date, NavGurukul has placed 
+                  over 1100+ students in software jobs within the tech industry, working 
+                  for IT giants and product startups.
                 </Typography>
                 <Typography variant="body1" sx={{ mb: "16px" }}>
-                  Through Meraki, NavGurukul works with students (and teachers)
-                  from government schools and ITIs through an online offering to
-                  help students learn basic English, touch typing, and
-                  programming. Code India Fellowship is a high-impact ambitious
-                  program to onboard high-aptitude and mission-aligned young
-                  graduates for a one-year fellowship and place them in
-                  government high schools.
+                  Through Meraki, NavGurukul also engages with students and teachers 
+                  from government schools and ITIs via an online platform. This initiative 
+                  helps students learn essential skills such as basic English, touch 
+                  typing, and programming. Additionally, the Code India Fellowship is 
+                  a high-impact and ambitious program designed to onboard high-aptitude, 
+                  mission-aligned young graduates for a one-year fellowship, placing them in government high schools.
                 </Typography>
               </CardContent>
             </Card>
@@ -175,8 +175,7 @@ function Partner() {
                   France, Canada, and India. Amazon and its partners support
                   more than 900 government schools across seven states in India.
                   Amazon also supports girls from low-income backgrounds looking
-                  to pursue careers in technology with scholarships, mentorship,
-                  and internships.
+                  to pursue careers in technology with scholarships, mentorship,and internships.
                 </Typography>
               </CardContent>
             </Card>
