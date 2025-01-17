@@ -175,8 +175,7 @@ function Partner() {
                   France, Canada, and India. Amazon and its partners support
                   more than 900 government schools across seven states in India.
                   Amazon also supports girls from low-income backgrounds looking
-                  to pursue careers in technology with scholarships, mentorship,
-                  and internships.
+                  to pursue careers in technology with scholarships, mentorship,and internships.
                 </Typography>
               </CardContent>
             </Card>
